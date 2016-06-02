@@ -1,0 +1,142 @@
+.navbar {
+  top: 0;
+}
+
+body {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+font {
+  color: white;
+}
+
+.listing {
+  margin-top: 5px;
+}
+
+.back {
+  padding: 25%;
+  height: 900px;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-aling: center;
+}
+
+#top {
+  background-image: url("https://4.bp.blogspot.com/-kbizGbjBtKQ/VWgrO4ZT19I/AAAAAAABjaA/1qhd2e6jGio/s0/Seaside_Sunset_uhd.jpg");
+  background-attachment: fixed;
+}
+
+
+
+
+h1 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: -1px 2px #000000;
+}
+
+
+
+
+.letter {
+  color: white;
+}
+
+.button {
+  padding: 10px;
+  background-color: #b36b00;
+  margin-right: 5px;
+  border: 1px solid #fff;
+}
+
+#middle2 {
+  background-image: url("https://4.bp.blogspot.com/-jcmbnEuBXk8/VdIX9g4uc9I/AAAAAAABxhw/EGXQf0vQNa8/s0/Manhattan_Sunset_uhd.jpg");
+  background-attachment: fixed;
+}
+
+#me {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: -145px;
+  text-shadow: -1px 2px #000;
+}
+
+.languages ul li {
+  float: left;
+  width: 40%;
+  color: white;
+  font-size: 16px;
+}
+
+#middle3 {
+  background-color: #000;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+#thumbnailpage {
+margin-top: 20px;
+  padding-top: 20px;
+}
+
+#middle h1 {
+  padding-top: -20px;
+}
+
+.thumbnail {
+  height: 250px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  size: cover;
+}
+
+.caption {
+  border: 4px groove white;
+  margin-top: -20px;
+  color: white;
+  background-color: black;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+#bottom {
+  background-image: url("https://4.bp.blogspot.com/-zvxhiTbEPSo/VRaMUIRWf4I/AAAAAAABfvo/0hn8BT-rvm8/s0/Sky_is_on_fire_hd.jpg");
+  background-attachment: fixed;
+}
+
+.thing {
+  width: 100%;
+  float: left;
+}
+
+.images {
+  height: 500px;
+}
+
+h3,
+h4 {
+  color: white;
+}
+
+.vert {
+  margin-top: -300px;
+  width: 60%;
+  padding: 50px;
+}
+
+.vertical {
+  background-color: #800000;
+}
