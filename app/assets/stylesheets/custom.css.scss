@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+#body-div{
+  margin-top: 50px;
+}
+
 font {
   color: white;
 }
@@ -22,17 +26,17 @@ font {
 
 .back {
   padding: 25%;
-  height: 900px;
+  height: 100%;
   position: relative;
   box-sizing: border-box;
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
   background-size: cover;
   background-repeat: no-repeat;
-  text-aling: center;
+  text-align: center;
 }
 
 #top {
-  background-image: url("https://4.bp.blogspot.com/-kbizGbjBtKQ/VWgrO4ZT19I/AAAAAAABjaA/1qhd2e6jGio/s0/Seaside_Sunset_uhd.jpg");
+  background-image: url("Seaside_Sunset_uhd.jpg");
   background-attachment: fixed;
 }
 
@@ -61,7 +65,7 @@ h1 {
 }
 
 #middle2 {
-  background-image: url("https://4.bp.blogspot.com/-jcmbnEuBXk8/VdIX9g4uc9I/AAAAAAABxhw/EGXQf0vQNa8/s0/Manhattan_Sunset_uhd.jpg");
+  background-image: url("Manhattan_Sunset_uhd.jpg");
   background-attachment: fixed;
 }
 
@@ -117,7 +121,7 @@ margin-top: 20px;
 }
 
 #bottom {
-  background-image: url("https://4.bp.blogspot.com/-zvxhiTbEPSo/VRaMUIRWf4I/AAAAAAABfvo/0hn8BT-rvm8/s0/Sky_is_on_fire_hd.jpg");
+  background-image: url("Sky_is_on_fire_hd.jpg");
   background-attachment: fixed;
 }
 
