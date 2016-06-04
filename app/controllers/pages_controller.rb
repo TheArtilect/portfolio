@@ -7,6 +7,11 @@ class PagesController < ApplicationController
     end
   end
   
+  def projects
+  end
+  
+
+  
   private
   
   def valid_page?
