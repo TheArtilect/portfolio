@@ -2,8 +2,10 @@
 @import "bootstrap";
 
 
+
 .navbar {
   top: 0;
+
 }
 
 body {
@@ -12,8 +14,12 @@ body {
   overflow-x: hidden;
 }
 
-#body-div{
+#top{
   margin-top: 50px;
+}
+
+#title-card{
+  margin-top: 30px;
 }
 
 font {
@@ -154,15 +160,43 @@ h4 {
 /*
 
 project page
-
 */
+
+#project-page{
+  background-image: url("pexels-photo.jpg");
+  background-attachment: fixed;
+}
+
+#proj-p{
+  color: white;
+  font-size: 16px;
+}
+#resume-page {
+  background-image: url("cheap_diagonal_fabric");
+  background-attachment: fixed;
+}
+
 .exp-entry, .ed-entry, .on-entry {
   border-bottom: 1px solid black;
   margin: 0px;
   padding: 20px 0px 10px 0px;
+  color: black;
  
 
 }
+
+
+div.entry p{
+  font-size: 18px;
+  color: white;
+}
+
+
+div.entry a{
+  color: white;
+
+}
+
 
 #about-p{
   text-align: center;
@@ -171,10 +205,16 @@ project page
   margin-top: 45px;
   text-align: center;
   color: black;
+  font-weight: bold;
+}
+
+.exp-h4{
+  color: black;
+  font-weight: 900;
 }
 
 .bio{
-  color: grey;
+  color: gray;
   margin-left: 400px;
 }
 
@@ -201,8 +241,14 @@ project page
 }
 
 .entry {
-  border: 1px solid black;
+  border: 2px solid white;
   margin: 20px;
   padding-bottom: 20px;
   
 }
+
+#proj-h1 {
+  font-weight: bold;
+}
+
+

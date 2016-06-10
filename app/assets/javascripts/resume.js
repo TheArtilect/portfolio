@@ -13,13 +13,16 @@ function displayBio() {
     "welcomeMessage": "Hello world!, my name is Ian and I am new to web developing.  Ask me anything!",
     "skills": "Management, Psychology, Multitasking, Interpersonal skills, Leadership skills, Programming",
     "languages": "Python, Ruby, Javascript, HTML5, CSS, Bootstrap, Git, jQuery, Ruby on Rails, SPSS, QuickBooks",
-    "interests": "audiophile (headphones), music, computer building and p.c. enthusiast(<a href='%data%' target='_blank'>Current Build</a>,<a href='%data%' target='_blank'>First Build</a>), writing, psychology, philosophy, reading, comedy, football, basketball, cooking"
+    "interests": "audiophile (headphones), music, computer building and p.c. enthusiast(<a href='http://pcpartpicker.com/list/PQBbvV' target='_blank'>Current Build</a>,<a href='http://pcpartpicker.com/list/8M8vFT' target='_blank'>First Build</a>), writing, psychology, philosophy, reading, comedy, football, basketball, cooking",
+    "about": "My background is primarily psychology.   I received my Master of Arts from Columbia University, Teacher's College in 2013 while working with a clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area.  I am still with the company but have a new passion for computer science and web developing.  I love music and am an amateur headphone audiophile and collector.   I am also interested in computer hardware and have already built two pcs and planning on building another one by the end of the year.  My other hardware projects include building a  router and wireless access points along with network-attached-storage from upcycled pc and server parts.",
+    'blurb': "My name is Ian Agpawa and I am new to web developing.  Ask me anything!"
   }
   
 
   $("#sk-p").html(bio.skills);
   $("#l-p").html(bio.languages);
   $("#i-p").html(bio.interests);
+  $("#me-p").html(bio.about);
   
 
  
@@ -40,24 +43,42 @@ function displayExp() {
       "employer": "MHH Clinical Services",
       "dates": "2012 - 2014",
       "location": "New York",
-      "description": "Administration, staffing, management and supervision"
+      "description": "Administration, staffing, management and supervision (25+ employees).  Served as liaison between various agencies and organizations.  Performed Quality Assurance to ensure compliance with state and clinic regulations.  Mained and managed business accounts."
     }, {
       "title": "Administrative Assistant",
       "employer": "MHH Clinical Services",
       "dates": "2010 - 2012",
       "location": "New York",
-      "description": "Administrative support"
+      "description": "Administrative and clerical support.  Coordinated and monitored delivery of treatment services.  In-take, processing, and coordination of billing.  Performed audits, as necessary."
     }, {
       "title": "Compliance Officer",
       "employer": "MHH Clinical Services",
       "dates": "2009 - 2010",
       "location": "New York",
-      "description": "Quality assurance"
+      "description": "Quality assurance.  Performed quality assurance audits at off-site facilities.  Maintained off-site consumer records."
+    }, {
+      "title": "Undergraduate Research Assistant",
+      "employer": "CUNY - Hunter College",
+      "dates": "2009",
+      "location": "New York",
+      "description": "-Performed literature search of relevant studies to provide background for the current study.  Prepared test materials, which included the manipulation of articles to include contextually inappropriate error words.  Error words were chosen based on lexical class, word frequency, and syntactic status, through the use of the Hyperspace Analogue to Language database.  Administered the study to test subjects, then coded and analyzed data using SPSS. My honors thesis was integrated into the larger study and has since been published."
+    }, {
+      "title": "Statistics Tutor",
+      "employer": "CUNY - Hunter College",
+      "dates": "2008",
+      "location": "New York",
+      "description": "-Held office hours twice a week and tutored walk-in students.  Explained and clarified key concepts underlying various statistical tests and their practical applications.  Reviewed and provided feedback on homework problems, lab reports and research projects.  Held review sessions for midterm and final exams."
+    }, {
+      "title": "Computer Lab Teaching Assistant (Statistical Methods in Psychology)",
+      "employer": "CUNY - Hunter College",
+      "dates": "2008",
+      "location": "New York",
+      "description": "-Performed literature search of relevant studies to provide background for the current study.  Prepared test materials, which included the manipulation of articles to include contextually inappropriate error words.  Error words were chosen based on lexical class, word frequency, and syntactic status, through the use of the Hyperspace Analogue to Language database.  Administered the study to test subjects, then coded and analyzed data using SPSS.My honors thesis was integrated into the larger study and has since been published."
     }]
   }
 
   var experienceStart = '<div class="exp-entry"></div>';
-  var expTitle = '<h4 class="about-h4 h4-title">%data%</h4>';
+  var expTitle = '<h4 class="exp-h4 h4-title">%data%</h4>';
   var expEmployer = "<h5 class='about-h5'>%data%</h5>";
   var expInfo = '<p>%loc%, %date%</p>';
   var expDescription = '<p>%data%</p>';

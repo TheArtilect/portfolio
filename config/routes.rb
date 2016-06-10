@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   get 'welcome/index'
   get "/pages/:page" => "pages#show"
-  get 'pages/projects'
   get 'pages/resume'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -64,16 +64,18 @@ var projects = {
 }
 
 var projectStart = '<div class="entry"></div>';
-var projectTitle = '<h3 class="pj-title">%data%</h3>';
+var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
 var projectInfo = '<p class="description">Description: %data%</p>';
 var projectDate = '<p class="date">Date Completed: %data%</p>'
-var projectLink = '<a class="links" target="_blank" href="%data%">Click here for link</a>';
+
 
 function displayIt() {
   for (project in projects.projects) {
     $("#project-entries").append(projectStart);
+    
 
-    var title = projectTitle.replace("%data%", projects.projects[project].title);
+    var link = projectLink.replace("%link%", projects.projects[project].url);
+    var title = link.replace("%data%", projects.projects[project].title);
     $(".entry:last").append(title);
 
     var description = projectInfo.replace("%data%", projects.projects[project].description);
@@ -81,9 +83,6 @@ function displayIt() {
 
     var date = projectDate.replace("%data%", projects.projects[project].dates)
     $(".entry:last").append(date);
-
-    var link = projectLink.replace("%data%", projects.projects[project].url);
-    $(".entry:last").append(link);
 
   }
 }

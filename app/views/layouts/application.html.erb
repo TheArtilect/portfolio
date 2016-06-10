@@ -4,9 +4,10 @@
   <title>Ian Agpawa's Personal Portfolio Webpage Project</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id='all'>
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <ul class="nav nav-pills">
@@ -15,27 +16,30 @@
             <font>Ian Agpawa</font>
           </a>
         </li>
-        <li class="listing" role="presentation" style="float:right">
-          <%= link_to "Resume", pages_resume_path %> 
 
-        </li>
         <li class="listing" role="presentation" style="float:right">
-          <%= link_to "Projects", pages_projects_path %> 
-
-        </li>
-        <li class="listing" role="presentation" style="float:right">
-          <a href="#lastpage">
+          <a href="welcome/index/lastpage">
             <font>Contact</font>
           </a>
         </li>
+
         <li class="listing" role="presentation" style="float:right">
-          <a href="#secondpage">
+          <%= link_to "Resume", pages_resume_path %> 
+        </li>
+        <li class="listing" role="presentation" style="float:right">
+          <a href="#thirdpage">
             <font>About</font>
           </a>
         </li>
         <li class="listing" role="presentation" style="float:right">
+           <a href="#secondpage">
+             <font>Portfolio</font>
+           </a>
+        </li>
+        <li class="listing" role="presentation" style="float:right">
           <%= link_to "Home", root_path %>
         </li>
+        
       </ul>
     </div>
   </nav>
