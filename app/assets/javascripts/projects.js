@@ -66,7 +66,7 @@ var projects = {
 var projectStart = '<div class="entry"></div>';
 var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
 var projectInfo = '<p class="description">Description: %data%</p>';
-var projectDate = '<p class="date">Date Completed: %data%</p>'
+var projectDate = '<p class="date">Date: %data%</p>'
 
 
 function displayIt() {
