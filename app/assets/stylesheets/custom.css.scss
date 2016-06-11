@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 
 .navbar {
@@ -33,7 +34,7 @@ font {
 }
 
 #section-link {
-  opacity: 0.55;
+  opacity: 0.75;
 }
 
 
@@ -259,6 +260,9 @@ div.entry a{
 
 #proj-h1 {
   font-weight: bold;
+  color: black;
+
+
 }
 
 #about-h1{
