@@ -4,9 +4,10 @@
 @import "font-awesome";
 
 
+
 .navbar {
   top: 0;
-  background-color: #000019;
+  background-color: #000003;
   opacity: 0.8;
 
 }
@@ -15,6 +16,7 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+
 }
 
 #top{
@@ -111,9 +113,14 @@ h1 {
 #middle h1 {
   padding-top: -20px;
 }
+
 .pc-link{
-  color: #E6C200;
+  /* color: #E6C200; */
+  color: #B29600;
+  text-decoration: underline;
 }
+
+
 
 .row {
   margin-bottom: 40px;
@@ -225,9 +232,18 @@ div.entry a{
 .about-s, .about-l, .about-i {
   display: inline;
   
-
-  
 }
+
+#l-p,
+#sk-p,
+#i-p {
+  font-size: 19px;
+}
+
+#i-p-f{
+  color: white;
+}
+
 
 #h4-int{
   color: white;
@@ -251,7 +267,7 @@ div.entry a{
 
 #proj-h1 {
   font-weight: bold;
-  color: black;
+  color: white;
 
 
 }
@@ -280,3 +296,13 @@ div.entry a{
   text-shadow: 1px 1px black;
   
 }
+
+#resume-page{
+  font-family: 'Old Standard TT', serif;
+}
+
+
+.head-n{
+  display: inline;
+}
+
