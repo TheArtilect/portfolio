@@ -78,6 +78,7 @@ function displayIt() {
     var title = link.replace("%data%", projects.projects[project].title);
     $(".entry:last").append(title);
 
+
     var description = projectInfo.replace("%data%", projects.projects[project].description);
     $(".entry:last").append(description);
 
@@ -93,7 +94,40 @@ function displayIt() {
 
 
 
-$(document).ready( displayIt);
-$(document).on('page:load', displayIt);
+
+function displayRes() {
+  
+  var projectStartRes = '<div class="entry-res"></div>';
+  var projectLinkRes = '<h4 class="pj-title-res"><a class="proj-links-res" target="_blank" href="%link%">%data%</a></h4>';
+  var projectInfoRes = '<p class="description-res res-p">Description: %data%</p>';
+  var projectDateRes = '<p class="date-res">Date: %data%</p>'
+    
+  for (project in projects.projects) {
+    $(".proj-res").append(projectStartRes);
+    
+
+    var link = projectLinkRes.replace("%link%", projects.projects[project].url);
+    var title = link.replace("%data%", projects.projects[project].title);
+    $(".entry-res:last").append(title);
+
+
+    var description = projectInfoRes.replace("%data%", projects.projects[project].description);
+    $(".entry-res:last").append(description);
+
+    var date = projectDateRes.replace("%data%", projects.projects[project].dates)
+    $(".entry-res:last").append(date);
+
+  }
+}
+
+
+function displayAll(){
+  displayIt();
+  displayRes();
+}
+
+
+$(document).ready( displayAll);
+$(document).on('page:load', displayAll);
 
 

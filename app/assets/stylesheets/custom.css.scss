@@ -7,16 +7,17 @@
 
 .navbar {
   top: 0;
-  background-color: #000003;
+  background-color: 	#00000C;
   opacity: 0.8;
 
 }
+
+
 
 body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-
 }
 
 #top{
@@ -38,7 +39,6 @@ font {
 #section-link {
   opacity: 0.75;
 }
-
 
 
 
@@ -145,6 +145,10 @@ h4 {
   color: white;
 }
 
+.about-h5 {
+  color: black;
+}
+
 .vert {
   margin-top: -300px;
   width: 60%;
@@ -177,11 +181,13 @@ project page
   background-attachment: fixed;
 }
 
-.exp-entry, .ed-entry, .on-entry {
+
+.exp-entry, .ed-entry, .on-entry, .entry-res {
   border-bottom: 1px solid black;
   margin: 0px;
   padding: 20px 0px 10px 0px;
   color: black;
+
  
 
 }
@@ -195,7 +201,10 @@ div.entry p{
 
 div.entry a{
   color: black;
+}
 
+.res-p {
+  font-size: 15px;
 }
 
 
@@ -306,3 +315,10 @@ div.entry a{
   display: inline;
 }
 
+.school-link,
+.site-link,
+.proj-links-res {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}

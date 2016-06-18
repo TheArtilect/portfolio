@@ -10,12 +10,12 @@ function displayBio() {
       "codeWarsUser": "http://www.codewars.com/users/TheArtilect"
     },
     "location": "New York",
-    "welcomeMessage": "Hello world!, my name is Ian and I am new to web developing.  Ask me anything!",
+    "blurb": "My name is Ian and I am new to web developing.  Ask Me Anything!",
     "skills": "Management, Psychology, Multitasking, Interpersonal skills, Leadership skills, Programming",
     "languages": "Python, Ruby, Javascript, HTML5, CSS, Bootstrap, Git, jQuery, Ruby on Rails, SPSS, QuickBooks",
     "interests": "audiophile (headphones), music, PC Master Race(<a href='http://pcpartpicker.com/list/BfKK8K'  target='_blank' class='pc-link pc-link-r'>Current Build</a>,<a href='http://pcpartpicker.com/list/8M8vFT' target='_blank' class='pc-link pc-link-r'>First Build</a>), writing, psychology, philosophy, reading, comedy, football, basketball, cooking",
-    "about": "My background is primarily psychology.   I received my Master of Arts from Columbia University, Teacher's College in 2013 while working with a clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area.  I am still with the company but have a new passion for computer science and web developing.  I love music and am an amateur headphone audiophile and collector.   I am also interested in computer hardware and have already built two pcs and planning on building another one by the end of the year.  My other hardware projects include building a  router and wireless access points along with network-attached-storage from upcycled pc and server parts.",
-    'blurb': "My name is Ian Agpawa and I am new to web developing.  Ask me anything!"
+    "about": "I have a newfound passion for web developing, but my background is primarily in psychology.  In college, I majored in psychology and philosophy, and my honors thesis was on the cognitive and perceptual mechanics of error-detection during proofreading, which was integrated into a publication.  I went on to receive my Master's and my Special Integrative Project focused on mindfulness as a tool for facilitating posttraumatic growth.  In addition, I have  been working with a clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area.   I love music and am an amateur headphone audiophile and collector; I put together a small playlist below for you enjoyment.   Additionaly, I am interested in computer hardware and have built two pcs and am in the process of building another one.  Other hardware projects include building a  router and wireless access points along with network-attached-storage from upcycled pc and server parts, which should be completed in the near future.",
+
   }
   
 
@@ -24,6 +24,7 @@ function displayBio() {
   $("#i-p").html(bio.interests);
   $("#i-p-f").html(bio.interests);
   $("#me-p").html(bio.about);
+  $("#resume-blurb").html(bio.blurb);
   
 
  
@@ -80,9 +81,9 @@ function displayExp() {
 
   var experienceStart = '<div class="exp-entry"></div>';
   var expTitle = '<h4 class="exp-h4 h4-title">%data%</h4>';
-  var expEmployer = "<h5 class='about-h5'>%data%</h5>";
+  var expEmployer = "<h4 class='about-h5'>%data%</h4>";
   var expInfo = '<p>%loc%, %date%</p>';
-  var expDescription = '<p>%data%</p>';
+  var expDescription = '<p class="res-p">%data%</p>';
 
   for (job in work.jobs) {
     $(".exp-entries").append(experienceStart);
@@ -198,11 +199,11 @@ function displayEd() {
   }
 
   var educationStart = '<div class="ed-entry"></div>';
-  var edSchool = '<h4 class="about-h4 h4-school"><a href="%href%" target="_blank">%data%</a></h4>';
+  var edSchool = '<h4 class="about-h4 h4-school"><a class="school-link" href="%href%" target="_blank">%data%</a></h4>';
   var edDegree = "<h5 class='about-h5'>%data%</h5>";
   var edMajor = '<p>%data%</p>';
   var edDate = '<p>%loc%, %date%</p>';
-  var edProject = '<p>%data%</p>';
+  var edProject = '<p class="res-p">%data%</p>';
   var edAwardsStart = '<ul class="ed-awards">Awards</ul>'
   var edAwards = '<li class="ed-awards-li">%data%</li>';
   var edActivitiesStart = '<ul class="ed-act">Activities</ul>'
@@ -251,8 +252,8 @@ function displayEd() {
   }
 
   var onlineStart = "<div class='on-entry'></div>";
-  var courseName = '<h4 class="on-h4"><a href="%href%" target="_blank">%data%</a></h4>';
-  var onInfo = "<p>%site%, %dates%</p>";
+  var courseName = '<h4 class="on-h4"><a href="%href%" target="_blank" class="site-link">%data%</a></h4>';
+  var onInfo = "<p class='res-p'>%site%, %dates%</p>";
 
   for (course in education.onlineCourses) {
     $(".ed-online").append(onlineStart);
