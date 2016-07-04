@@ -4,42 +4,54 @@ var projects = {
       "dates": "Jun. 2016",
       "description": "Pomodoro Productivity Timer.  First project utilizing setInterval()",
       "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
-    }, {
+    }, 
+    
+    {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
       "description": "Javascript Calculator for freeCodeCamp.",
       "url": "http://codepen.io/TheArtilect/full/jrVBzV/"
-    }, {
+    }, 
+    
+    {
       "title": "Twitch-It",
       "dates": "May 2016",
       "description": "Twitch app for freeCodeCamp.  Utilized Twitch API",
       "url": "http://codepen.io/TheArtilect/full/mPQrXv/"
-    }, {
+    }, 
+    
+    {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
       "description": "Wikipedia app for freeCodeCamp.  Utilized Wikipedia API.",
       "url": "http://codepen.io/TheArtilect/full/LNewLy/"
-    }, {
+    }, 
+    
+    {
       "title": "Local Weather App",
       "dates": "Apr. 2016",
       "description": "Local weather app for freeCodeCamp.  My first API.  Utilized OpenWeather API and browser geolocation.",
       "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
-    }, {
+    }, 
+    
+    {
       "title": "Finance Tracker",
       "dates": "Feb. - Mar. 2016",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
       "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. Currently in production (Heroku).",
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
-    }, {
+    }, 
+    
+    {
       "title": "Photo App",
       "dates": "Mar. 2016",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course.",
       "description": "Ruby on Rails photo app.  Functionality not finalized, styling in progress. Currently in production (Heroku).",
       "url": "https://dry-retreat-19962.herokuapp.com/"
-    },
-
+    }, 
+    
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
@@ -129,13 +141,13 @@ function displayRes() {
 }
 
 
-function displayAll(){
+function displayAllProj(){
   displayIt();
   displayRes();
 }
 
 
-$(document).ready( displayAll);
-$(document).on('page:load', displayAll);
+$(document).ready( displayAllProj);
+$(document).on('page:load', displayAllProj);
 
 
