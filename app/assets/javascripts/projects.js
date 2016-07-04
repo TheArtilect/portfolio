@@ -1,7 +1,17 @@
 var projects = {
   "projects": [{
+      "title": "Pomodoro Productivity Timer",
+      "dates": "Jun. 2016",
+      "description": "Pomodoro Productivity Timer.  First project utilizing setInterval()",
+      "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
+    }, {
+      "title": "Javascript Calculator",
+      "dates": "Jun. 2016",
+      "description": "Javascript Calculator for freeCodeCamp.",
+      "url": "http://codepen.io/TheArtilect/full/jrVBzV/"
+    }, {
       "title": "Twitch-It",
-      "dates": "Apr. 2016",
+      "dates": "May 2016",
       "description": "Twitch app for freeCodeCamp.  Utilized Twitch API",
       "url": "http://codepen.io/TheArtilect/full/mPQrXv/"
     }, {
@@ -10,6 +20,11 @@ var projects = {
       "description": "Wikipedia app for freeCodeCamp.  Utilized Wikipedia API.",
       "url": "http://codepen.io/TheArtilect/full/LNewLy/"
     }, {
+      "title": "Local Weather App",
+      "dates": "Apr. 2016",
+      "description": "Local weather app for freeCodeCamp.  My first API.  Utilized OpenWeather API and browser geolocation.",
+      "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
+    }, {
       "title": "Finance Tracker",
       "dates": "Feb. - Mar. 2016",
       "onlineSchool": "Udemy",
@@ -17,13 +32,6 @@ var projects = {
       "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. Currently in production (Heroku).",
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
     }, {
-      "title": "Local Weather App",
-      "dates": "Mar. 2016",
-      "description": "Local weather app for freeCodeCamp.  My first API.  Utilized OpenWeather API and browser geolocation.",
-      "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
-    },
-
-    {
       "title": "Photo App",
       "dates": "Mar. 2016",
       "onlineSchool": "Udemy",
@@ -41,7 +49,7 @@ var projects = {
 
     {
       "title": "Personal Portfolio Webpage",
-      "dates": "Feb. - Mar. 2016",
+      "dates": "Mar. 2016",
       "description": "Personal portfolio webpage project for freeCodeCamp.",
       "url": "http://codepen.io/TheArtilect/full/EKPaop/"
     }, {
