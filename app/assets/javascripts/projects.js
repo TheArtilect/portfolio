@@ -9,8 +9,8 @@ var projects = {
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
-      "description": "Javascript Calculator for freeCodeCamp.",
-      "url": "http://codepen.io/TheArtilect/full/jrVBzV/"
+      "description": "Javascript Calculator for freeCodeCamp. First project utilizing 'this' in js.",
+      "url": "http://codepen.io/TheArtilect/full/OXgjBw/"
     }, 
     
     {
@@ -26,11 +26,17 @@ var projects = {
       "description": "Wikipedia app for freeCodeCamp.  Utilized Wikipedia API.",
       "url": "http://codepen.io/TheArtilect/full/LNewLy/"
     }, 
+    {
+      "title": "Moving Companion",
+      "dates": "Apr. 2016",
+      "description": "Simple location look up (Google, NYT, Wikipedia). Styling not finished.",
+      "url": "http://codepen.io/TheArtilect/full/pbwbbW/"
+    }, 
     
     {
       "title": "Local Weather App",
       "dates": "Apr. 2016",
-      "description": "Local weather app for freeCodeCamp.  My first API.  Utilized OpenWeather API and browser geolocation.",
+      "description": "Local weather app for freeCodeCamp.  My first API project.  Utilized OpenWeather API and browser geolocation.",
       "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
     }, 
     
