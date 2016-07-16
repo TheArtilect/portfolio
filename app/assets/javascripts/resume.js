@@ -39,7 +39,7 @@ function displayExp() {
       "employer": "MHH Clinical Services",
       "dates": "2014 - Present",
       "location": "New York",
-      "description": "Oversee and direct business operations.  MHH Clinical Services is a small company that works with not-for-profit agencies to provide Psychotherapy, Speech Therapy, and Occupational Therapy to intellectually-disabled individuals in the New York City area."
+      "description": "Oversee and direct business operations.  MHH Clinical Services is a small company that works with not-for-profit community agencies to provide psychotherapy, speech therapy, and occupational therapy to intellectually-disabled individuals in the New York City area."
     }, {
       "title": "Administrator",
       "employer": "MHH Clinical Services",

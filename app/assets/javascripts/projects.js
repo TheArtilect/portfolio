@@ -1,10 +1,17 @@
 var projects = {
   "projects": [{
+      "title": "Tic Tac Toe Game",
+      "dates": "Jul. 2016",
+      "description": "Tic Tac Toe Game for freeCodeCamp.  Currently in prodcution(GitHub Pages)",
+      "url": "https://theartilect.github.io/TickyTacky/"
+    },
+    
+    {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
-      "description": "Pomodoro Productivity Timer.  First project utilizing setInterval()",
+      "description": "Pomodoro Productivity Timer for freeCodeCamp.  First project utilizing setInterval()",
       "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
-    }, 
+    },
     
     {
       "title": "Javascript Calculator",
