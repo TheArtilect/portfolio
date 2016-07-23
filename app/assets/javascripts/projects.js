@@ -2,7 +2,7 @@ var projects = {
   "projects": [{
       "title": "Tic Tac Toe Game",
       "dates": "Jul. 2016",
-      "description": "Tic Tac Toe Game for freeCodeCamp.  Currently in prodcution(GitHub Pages)",
+      "description": "Tic Tac Toe Game for freeCodeCamp.",
       "url": "https://theartilect.github.io/TickyTacky/"
     },
     
@@ -17,7 +17,7 @@ var projects = {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
       "description": "Javascript Calculator for freeCodeCamp. First project utilizing 'this' in js.",
-      "url": "http://codepen.io/TheArtilect/full/OXgjBw/"
+      "url": "https://theartilect.github.io/calculator/"
     }, 
     
     {
