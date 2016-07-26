@@ -12,9 +12,9 @@ function displayBio() {
     "location": "New York",
     "blurb": "My name is Ian and I am new to web developing.  Ask Me Anything!",
     "skills": "Web Developing, Programming, Management, Psychology, Multitasking, Interpersonal skills, Leadership skills, Statistics",
-    "languages": "Python, Ruby, Javascript, HTML5, CSS, Bootstrap, Git, jQuery, Ruby on Rails, SPSS, QuickBooks",
+    "languages": "Javascript, jQuery, HTML5, CSS, Bootstrap, Ruby, Ruby on Rails, Git, Python, SPSS, QuickBooks",
     "interests": "audiophile (headphones), music, PC Master Race(<a href='http://pcpartpicker.com/list/BfKK8K'  target='_blank' class='pc-link pc-link-r'>Current Build</a>,<a href='http://pcpartpicker.com/list/8M8vFT' target='_blank' class='pc-link pc-link-r'>First Build</a>), writing, psychology, philosophy, reading, comedy, football, basketball, cooking",
-    "about": "I have a newfound passion in web development and programming, but my background is primarily in psychology.  I am currently working with a clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area. My academic interests include posttraumatic growth, mindfuless, developmental psychopathology - intergenerational transmission of dysfunction,  the psychology of music - cognition and perception.  I am also an amateur headphone audiophile, and I enjoy building computers.  My next hardware project includes building a wireless access point and a router with network-attached-storage from upcycled parts.",
+    "about": "I have a newfound passion for web development and programming, but my background is primarily in psychology.  I have been working with a clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area. My academic interests include posttraumatic growth, developmental psychopathology and the intergenerational transmission of dysfunction, mindfuless, and the perception and psychology of music.  I am also an amateur headphone audiophile, and enjoy building computers.  My next hardware project is building a wireless access point and a NAS server router from upcycled parts.",
   }
   
 

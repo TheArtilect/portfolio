@@ -1,49 +1,62 @@
 var projects = {
   "projects": [{
-      "title": "Tic Tac Toe Game",
+      "title": "Simon Says",
       "dates": "Jul. 2016",
-      "description": "Tic Tac Toe Game for freeCodeCamp.",
+      "description": "A Simon Says game. First project utilizing audio elements and setTimeout().",
+      "url": "http://codepen.io/TheArtilect/full/zBjpaw/"
+    },
+    
+    {
+      "title": "Tic Tac Toe",
+      "dates": "Jul. 2016",
+      "description": "A tic tac toe game.",
       "url": "https://theartilect.github.io/TickyTacky/"
     },
     
     {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
-      "description": "Pomodoro Productivity Timer for freeCodeCamp.  First project utilizing setInterval()",
+      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval()",
       "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
     },
     
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
-      "description": "Javascript Calculator for freeCodeCamp. First project utilizing 'this' in js.",
+      "description": "A fully functional simple calculator. First project utilizing 'this' in js.",
       "url": "https://theartilect.github.io/calculator/"
     }, 
     
     {
       "title": "Twitch-It",
       "dates": "May 2016",
-      "description": "Twitch app for freeCodeCamp.  Utilized Twitch API",
+      "description": "For tracking some Twitch streamers.  Utilized Twitch API",
       "url": "http://codepen.io/TheArtilect/full/mPQrXv/"
+      /*
+      "url": "https://theartilect.github.io/twitch/"
+      */
     }, 
     
     {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
-      "description": "Wikipedia app for freeCodeCamp.  Utilized Wikipedia API.",
+      "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API.",
       "url": "http://codepen.io/TheArtilect/full/LNewLy/"
+      /*
+      "url": "https://theartilect.github.io/wiki/"
+      */
     }, 
     {
       "title": "Moving Companion",
       "dates": "Apr. 2016",
-      "description": "Simple location look up (Google, NYT, Wikipedia). Styling not finished.",
+      "description": "Simple location integrated look up (Google, NYT, Wikipedia). Styling not finished.",
       "url": "http://codepen.io/TheArtilect/full/pbwbbW/"
     }, 
     
     {
       "title": "Local Weather App",
       "dates": "Apr. 2016",
-      "description": "Local weather app for freeCodeCamp.  My first API project.  Utilized OpenWeather API and browser geolocation.",
+      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation.",
       "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
     }, 
     
@@ -52,10 +65,10 @@ var projects = {
       "dates": "Feb. - Mar. 2016",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
-      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. Currently in production (Heroku).",
+      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. (Heroku).",
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
     }, 
-    
+    /*
     {
       "title": "Photo App",
       "dates": "Mar. 2016",
@@ -64,24 +77,27 @@ var projects = {
       "description": "Ruby on Rails photo app.  Functionality not finalized, styling in progress. Currently in production (Heroku).",
       "url": "https://dry-retreat-19962.herokuapp.com/"
     }, 
-    
+    */
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
-      "description": "Random quote generator app for freeCodeCamp.  My first Javascript project.",
+      "description": "A few of my favorite quotes.  My first Javascript project.",
       "url": "http://codepen.io/TheArtilect/full/EKXXZm/"
     },
 
     {
-      "title": "Personal Portfolio Webpage",
+      "title": "Personal Portfolio",
       "dates": "Mar. 2016",
-      "description": "Personal portfolio webpage project for freeCodeCamp.",
+      "description": "A personal portfolio webpage.",
       "url": "http://codepen.io/TheArtilect/full/EKPaop/"
     }, {
       "title": "Tribute Project",
       "dates": "Feb. 2016",
-      "description": "Tribute Project about Hunter S. Thompson for freeCodeCamp.  My first HTML and CSS project.",
+      "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.  Transitioned into a rails app (Heroku).",
+      "url": "https://serene-garden-65449.herokuapp.com/"
+      /*
       "url": "http://codepen.io/TheArtilect/full/eJqqQZ/"
+      */
     },
 
     {
