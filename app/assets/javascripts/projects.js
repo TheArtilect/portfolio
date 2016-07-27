@@ -9,31 +9,28 @@ var projects = {
     {
       "title": "Tic Tac Toe",
       "dates": "Jul. 2016",
-      "description": "A tic tac toe game.",
-      "production": "github-pages",
+      "description": "A tic tac toe game. (github-pages)",
       "url": "https://theartilect.github.io/TickyTacky/"
     },
     
     {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
-      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval()",
+      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
       "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
     },
     
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
-      "description": "A fully functional simple calculator. First project utilizing 'this' in js.",
-      "production": "github-pages",
+      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
       "url": "https://theartilect.github.io/calculator/"
     }, 
     
     {
       "title": "Twitch-It",
       "dates": "May 2016",
-      "description": "For tracking some Twitch streamers.  Utilized Twitch API.",
-      "production": "Rails/Heroku",
+      "description": "For tracking some Twitch streamers.  Utilized Twitch API. (Rails/Heroku)",
       "url": "https://twitch-it.herokuapp.com/"
     }, 
     
@@ -65,8 +62,7 @@ var projects = {
       "dates": "Feb. - Mar. 2016",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
-      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
-      "production": "Rails/Heroku",
+      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. (Rails/Heroku)",
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
     }, 
     /*
@@ -89,24 +85,21 @@ var projects = {
     {
       "title": "Personal Portfolio",
       "dates": "Mar. 2016",
-      "description": "A personal portfolio webpage.",
-      "production": "Rails/Heroku",
+      "description": "A personal portfolio webpage. (Rails/Heroku)",
       "url": "https://still-hamlet-66280.herokuapp.com/"
     }, 
     
     {
       "title": "Tribute Project",
       "dates": "Feb. 2016",
-      "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
-      "production": "Rails/Heroku",
+      "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project. (Rails/Heroku)",
       "url": "https://hunter-s-tribute.herokuapp.com/"
     },
 
     {
       "title": "AlphaBlog",
       "dates": "Jan. 2016",
-      "description": "My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress)",
-      "production": "Rails/Heroku",
+      "description": "My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.  (Rails/Heroku)",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
       "url": "https://project-prometheus-alphablog.herokuapp.com/"
@@ -135,10 +128,6 @@ function displayIt() {
     var description = projectInfo.replace("%data%", projects.projects[project].description);
     $(".entry:last").append(description);
     
-    if (projects.projects[project].production){
-      var production = projectProd.replace("%data%", projects.projects[project].production);
-      $(".entry:last").append(production);
-    }
 
     var date = projectDate.replace("%data%", projects.projects[project].dates)
     $(".entry:last").append(date);
