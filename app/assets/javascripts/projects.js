@@ -38,7 +38,7 @@ var projects = {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
       "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API.",
-      "url": "http://codepen.io/TheArtilect/full/LNewLy/"
+      "url": "https://wiki-it-ia.herokuapp.com"
       /*
       "url": "https://theartilect.github.io/wiki/"
       */
@@ -79,14 +79,14 @@ var projects = {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
       "description": "A few of my favorite quotes.  My first Javascript project.",
-      "url": "http://codepen.io/TheArtilect/full/EKXXZm/"
+      "url": "https://rand-quote-gen.herokuapp.com/"
     },
 
     {
       "title": "Personal Portfolio",
       "dates": "Mar. 2016",
       "description": "A personal portfolio webpage. (Rails/Heroku)",
-      "url": "https://still-hamlet-66280.herokuapp.com/"
+      "url": "https://ian-agpawa.herokuapp.com/"
     }, 
     
     {
