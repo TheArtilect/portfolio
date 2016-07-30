@@ -16,7 +16,7 @@ var projects = {
     {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
-      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
+      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval(). (Rails/Heroku)",
       "url": "https://pomodoro-timer-ia.herokuapp.com/"
     },
     
@@ -53,7 +53,7 @@ var projects = {
     {
       "title": "Local Weather App",
       "dates": "Apr. 2016",
-      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation.",
+      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation. (Chrome incompatibility, will recreate with different API in the future).",
       "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
     }, 
     
