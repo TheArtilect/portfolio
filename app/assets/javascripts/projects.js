@@ -2,8 +2,8 @@ var projects = {
   "projects": [{
       "title": "Simon Says",
       "dates": "Jul. 2016",
-      "description": "A Simon Says game. First project utilizing audio elements and setTimeout().",
-      "url": "http://codepen.io/TheArtilect/full/zBjpaw/"
+      "description": "A Simon Says game. First project utilizing audio elements and setTimeout(). (Rails/Heroku)",
+      "url": "https://simon-says-ia.herokuapp.com"
     },
     
     {
@@ -17,7 +17,7 @@ var projects = {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
       "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
-      "url": "http://codepen.io/TheArtilect/full/YWVdBa/"
+      "url": "https://pomodoro-timer-ia.herokuapp.com/"
     },
     
     {
@@ -37,7 +37,7 @@ var projects = {
     {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
-      "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API.",
+      "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API. (Rails/Heroku)",
       "url": "https://wiki-it-ia.herokuapp.com"
       /*
       "url": "https://theartilect.github.io/wiki/"
@@ -78,16 +78,17 @@ var projects = {
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
-      "description": "A few of my favorite quotes.  My first Javascript project.",
+      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
       "url": "https://rand-quote-gen.herokuapp.com/"
     },
-
+/*
     {
       "title": "Personal Portfolio",
       "dates": "Mar. 2016",
       "description": "A personal portfolio webpage. (Rails/Heroku)",
       "url": "https://ian-agpawa.herokuapp.com/"
     }, 
+*/
     
     {
       "title": "Tribute Project",
