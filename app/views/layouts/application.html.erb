@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
   <title>Ian Agpawa's Personal Portfolio</title>
   <meta charset="utf-8">
   <meta name="Description" content="Personal portfolio of Ian Agpawa">
   <meta name="author" content="Ian Agpawa">
+  <meta property="og:title" content="Ian Agpawa Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ian-agpawa.herokuapp.com/" />
+  <meta property="og:image" content="http://i.imgur.com/yc5bI2u.jpg" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
@@ -17,7 +21,7 @@
         <li class="listing" role="presentation" style="float:left" id="page-link">
           <%= link_to "Ian Agpawa", root_path, style: 'color:#FFFFFF;' %>
         </li>
-        <li class="listing" role="presentation" style="float:right">
+        <li class="listing" role="presentation" style="float:right" id="resume-link">
           <%= link_to "Resume", pages_resume_path, style: 'color:#FFFFFF;' %> 
         </li>
 

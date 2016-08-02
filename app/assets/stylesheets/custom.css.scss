@@ -157,8 +157,9 @@ h4 {
 
 .vertical {
   background-color: #800000;
+  width: 200px;
+  color: white;
 }
-
 
 
 
@@ -321,4 +322,8 @@ div.entry a{
   color: black;
   text-decoration: underline;
   font-weight: bold;
+}
+
+#euler{
+  width: 200px;
 }
