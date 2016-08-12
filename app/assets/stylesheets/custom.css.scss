@@ -21,11 +21,12 @@ body {
 }
 
 #top{
-  margin-top: 50px;
+  //margin-top: 50px;
 }
 
 #title-card{
-  margin-top: 30px;
+  margin-top: 80px;
+
 }
 
 font {
@@ -82,7 +83,7 @@ h1 {
 }
 
 #middle2 {
-  background-image: url("Manhattan_Sunset_uhd.jpg");
+  background-image: url("Sky_is_on_fire_hd.jpg");
   background-attachment: fixed;
 }
 
@@ -91,8 +92,8 @@ h1 {
   font-weight: bold;
   font-size: 16px;
   text-align: justify;
-  margin-top: -145px;
   text-shadow: -1px 2px #000;
+  margin-top: -250px;
 }
 
 .languages ul li {
@@ -150,9 +151,14 @@ h4 {
 }
 
 .vert {
-  margin-top: -300px;
   width: 60%;
   padding: 50px;
+  float: left;
+}
+
+.vert-m {
+  width: 100px;
+  float: left;
 }
 
 .vertical {
@@ -175,7 +181,7 @@ project page
 
 #proj-p{
   color: white;
-  font-size: 16px;
+  font-size: 17px;
 }
 #resume-page {
   background-image: url("cheap_diagonal_fabric");
@@ -270,7 +276,7 @@ div.entry a{
   border: 1px solid black;
   margin: 20px;
   padding-bottom: 20px;
-  opacity: .6;
+  opacity: .8;
   background-color: white;
   
 }
