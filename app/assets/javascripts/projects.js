@@ -169,10 +169,14 @@ function displayRes() {
 }
 
 
+
 function displayAllProj(){
+  navIt();
   displayIt();
   displayRes();
 }
+
+
 
 
 $(document).ready( displayAllProj);

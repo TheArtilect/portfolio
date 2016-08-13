@@ -13,11 +13,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body id='all'>
+
+
+  
+  <!--
+  <div id='side-Nav' class="s-nav">
+    <ul>
+      <li class="nav-li" role="presentation" id="close-btn">
+        Close
+      </li>
+      <li class="nav-li" role="presentation" id="page-link">
+        <%= link_to "Ian Agpawa", root_path, style: 'color:#fff;' %>
+      </li>
+      <li class="nav-li" role="presentation" id="resume-link">
+        <%= link_to "Resume", pages_resume_path, style: 'color:#fff' %> 
+      </li>
+      
+    </ul>
+  </div>
+  -->
+  
+  
+  <!--
+  
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <ul class="nav">
         <li class="listing" role="presentation" style="float:left" id="page-link">
-          <%= link_to "Ian Agpawa", root_path, style: 'color:#FFFFFF;' %>
+          <%= link_to "Home", root_path, style: 'color:#FFFFFF;' %>
         </li>
         <li class="listing" role="presentation" style="float:right" id="resume-link">
           <%= link_to "Resume", pages_resume_path, style: 'color:#FFFFFF;' %> 
@@ -28,7 +51,30 @@
       </ul>
     </div>
   </nav>
-<div id='body-div'>
+  -->
+
+
+  
+<div id='body-div' class="site-wrap">
+    <nav id="fixed-side-nav">
+      
+    <div id='side-Nav' class="s-nav">
+      <ul>
+        <li class="nav-li" role="presentation">
+          <i id="close-btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </li>
+        <li class="nav-li h-li" role="presentation" id="page-link">
+          <%= link_to "Home", root_path, style: 'color:#504D69;' %>
+        </li>
+        <li class="nav-li h-li" role="presentation" id="resume-link">
+          <%= link_to "Resume", pages_resume_path, style: 'color:#504D69' %> 
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+
 <%= yield %>
 </div>
 </body>
