@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: 9999;
-  width: 7%;
+  width: 10%;
   height: 50%;
   //background-color: #000027;
   background-color: rgba(0, 0, 0, 0.01);
@@ -20,7 +20,6 @@
   display: block;
   float: right;
   font-size: 20px;
-  //text-shadow: 1px 1px #000;
 }
 
 .h-li{
@@ -38,30 +37,15 @@
 
 .n-link{
   color: white;
+  float: right;
 }
 
-/*
-
-
-
-
-
-
-#close-btn{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.nav-drop{
+  float: right;
+  color: white;
 }
 
-.site-wrap{
-  transition: margin-left .5s;
-  padding: 20px;
+.dropdown-content{
+  font-size: 15px;
 }
 
-@media screen and (max-height: 450px) {
-  #side-Nav {padding-top: 15px;}
-  .nav-li {font-size: 18px;}
-}
-*/

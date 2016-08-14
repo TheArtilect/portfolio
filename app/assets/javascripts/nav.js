@@ -1,4 +1,4 @@
-var page = "resume";
+var page = "home";
 
 function navIt(){
   var shown = false;
@@ -21,17 +21,28 @@ function navIt(){
     }
   }
   
+  function dropDowns(){
+    if (page == "home"){
+     $(".resume-drop").css("display", "none");
+     $(".home-drop").show();
+    } else if (page == 'resume'){
+      $(".home-drop").css("display", "none");
+      $(".resume-drop").show();
+    }
+    
+  }
+  
+  
   $("#page-link").on("click", function(){
     page = "home";
-
   })
   
   $("#resume-link").on("click", function(){
     page = 'resume';
-
   })
   
   colorNav();
+  dropDowns();
 }
 
 

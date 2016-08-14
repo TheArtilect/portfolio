@@ -26,13 +26,27 @@
           <i id="close-btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
         </li>
         <li class="nav-li h-li" role="presentation" >
-          <%= link_to "Home", root_path, :class => "n-link", :id => "page-link" %>
+          <div class="dropdown">
+            <%= link_to "Home", root_path, :class => "n-link", :id => "page-link" %>
+            <div class="dropdown-content">
+              <a href="#secondpage" class="nav-drop n-link home-drop">Portfolio</a>
+              <a href="#thirdpage" class="nav-drop n-link home-drop">About</a>
+              <a href="#contact" class="nav-drop n-link home-drop">Contact</a>
+            </div>
+          </div>
         </li>
+        
         <li class="nav-li h-li" role="presentation">
+          <div class="dropdown">
           <%= link_to "Resume", pages_resume_path, :class => "n-link", :id => "resume-link" %> 
+          <div class="dropdown-content">
+            <a href="#experience" class="nav-drop n-link resume-drop">Experience</a>
+            <a href="#education" class="nav-drop n-link resume-drop">Education</a>
+            <a href="#courses" class="nav-drop n-link resume-drop">Courses</a>
+            <a href="#projects" class="nav-drop n-link resume-drop">Projects</a>
+          </div>
+          </div>
         </li>
-        
-        
       </ul>
     </div>
   </nav>
