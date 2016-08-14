@@ -3,9 +3,9 @@
 #fixed-side-nav{
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50px;
   z-index: 9999;
-  width: 10%;
+  width: 100px;
   height: 50%;
   //background-color: #000027;
   background-color: rgba(0, 0, 0, 0.01);
@@ -38,6 +38,7 @@
 .n-link{
   color: white;
   float: right;
+  display: inline;
 }
 
 .nav-drop{
