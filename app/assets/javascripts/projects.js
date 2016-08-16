@@ -174,6 +174,8 @@ function displayAllProj(){
   navIt();
   displayIt();
   displayRes();
+  titleIt();
+  showCoords(event);
 }
 
 
