@@ -7,12 +7,11 @@ footer {
 }
 
 
-#foot-p{
-  //margin-left: 17%;
+#foot-ul{
+  columns: 2;
 }
 
-.connect-div,
-.con-info{
+.connect-div {
   display: inline;
   color: white;
   font-size: 19px;
@@ -21,6 +20,13 @@ footer {
   padding-top: 20px;
   margin-left: 4%;
 }
+
+.con-info {
+  list-style-type: none;
+  display: block;
+  margin-top: -3px;
+}
+
 .c-div{
   margin-top: 20px;
 }
