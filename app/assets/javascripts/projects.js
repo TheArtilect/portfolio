@@ -7,6 +7,13 @@ var projects = {
     },
     
     {
+      "title": "Random Quote Generator",
+      "dates": "Mar. 2016",
+      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
+      "url": "https://rand-quote-gen.herokuapp.com/"
+    },
+    
+    {
       "title": "Tic Tac Toe",
       "dates": "Jul. 2016",
       "description": "A tic tac toe game. (github-pages)",
@@ -74,14 +81,6 @@ var projects = {
       "description": "Ruby on Rails photo app.  Functionality not finalized, styling in progress. Currently in production (Heroku).",
       "url": "https://dry-retreat-19962.herokuapp.com/"
     }, 
-    */
-    {
-      "title": "Random Quote Generator",
-      "dates": "Mar. 2016",
-      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
-      "url": "https://rand-quote-gen.herokuapp.com/"
-    },
-/*
     {
       "title": "Personal Portfolio",
       "dates": "Mar. 2016",
@@ -174,8 +173,6 @@ function displayAllProj(){
   navIt();
   displayIt();
   displayRes();
-  titleIt();
-  showCoords(event);
 }
 
 

@@ -34,9 +34,14 @@ footer {
 
 
 #bot-d{
-  margin-top: -20px;
+  margin-top: -18px;
 }
 
+#euler {
+  height: 55px;
+  width: 200px;
+  margin-left: 11px;
+}
 
 
 
@@ -53,4 +58,47 @@ footer {
   color: #4C0000;
 }
 
+/*
+
+Old Way
+
+footer {
+  display: block;
+  color: black;
+  width: 100%;
+  height: 180px;
+  background-color: #000019;
+}
+
+
+#foot-p{
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 17%;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.con-info{
+  list-style-type: none;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
+
+.foot-div{
+  display: inline;
+  margin-top: -8px;
+}
+
+.letter {
+  color: white;
+}
+
+.letter:hover{
+  color: #4C0000;
+}
+
+*/
 
