@@ -29,7 +29,6 @@ function navIt(){
       $(".home-drop").css("display", "none");
       $(".resume-drop").show();
     }
-    
   }
   
   
@@ -43,6 +42,24 @@ function navIt(){
   
   colorNav();
   dropDowns();
+  
+  
+  function samePage(){
+    if (page == "home"){
+      $("#page-link").css("display", "none");
+      $("#in-page-link").show();
+      $("#resume-link").show();
+      $("#in-resume-link").css("display", 'none');
+    } else if (page == "resume"){
+      $("#resume-link").css('display', 'none');
+      $("#in-resume-link").show();
+      $("#page-link").show();
+      $("#in-page-link").css('display', 'none');
+    }
+  }
+  
+  samePage();
+  
 }
 
 

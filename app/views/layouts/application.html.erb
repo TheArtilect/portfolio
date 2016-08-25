@@ -28,6 +28,7 @@
         <li class="nav-li h-li" role="presentation" >
           <div class="dropdown">
             <%= link_to "Home", root_path, :class => "n-link", :id => "page-link" %>
+            <a href="#firstpage" class="n-link" id="in-page-link">Home</a>
             <div class="dropdown-content">
               <a href="#secondpage" class="nav-drop n-link home-drop">Portfolio</a>
               <a href="#thirdpage" class="nav-drop n-link home-drop">About</a>
@@ -40,6 +41,7 @@
         <li class="nav-li h-li" role="presentation">
           <div class="dropdown">
           <%= link_to "Resume", pages_resume_path, :class => "n-link", :id => "resume-link" %> 
+          <a href="#resume-top" class="n-link" id="in-resume-link">Resume</a>
           <div class="dropdown-content">
             <a href="#experience" class="nav-drop n-link resume-drop">Experience</a>
             <a href="#education" class="nav-drop n-link resume-drop">Education</a>
