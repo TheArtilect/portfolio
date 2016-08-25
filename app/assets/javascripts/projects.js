@@ -5,13 +5,13 @@ var projects = {
       "description": "A Simon Says game. First project utilizing audio elements and setTimeout(). (Rails/Heroku)",
       "url": "https://simon-says-ia.herokuapp.com"
     },
-    
+
     {
-      "title": "Random Quote Generator",
-      "dates": "Mar. 2016",
-      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
-      "url": "https://rand-quote-gen.herokuapp.com/"
-    },
+      "title": "Javascript Calculator",
+      "dates": "Jun. 2016",
+      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
+      "url": "https://theartilect.github.io/calculator/"
+    }, 
     
     {
       "title": "Tic Tac Toe",
@@ -21,18 +21,21 @@ var projects = {
     },
     
     {
+      "title": "Random Quote Generator",
+      "dates": "Mar. 2016",
+      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
+      "url": "https://rand-quote-gen.herokuapp.com/"
+    },
+    
+    
+    {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
       "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval(). (Rails/Heroku)",
       "url": "https://pomodoro-timer-ia.herokuapp.com/"
     },
     
-    {
-      "title": "Javascript Calculator",
-      "dates": "Jun. 2016",
-      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
-      "url": "https://theartilect.github.io/calculator/"
-    }, 
+
     
     {
       "title": "Twitch-It",
