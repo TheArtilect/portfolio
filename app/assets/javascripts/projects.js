@@ -172,16 +172,45 @@ function displayRes() {
 
 
 
-function displayAllProj(){
-  navIt();
-  displayIt();
-  displayRes();
+
+
+/* redux projects */
+function createProjects(){
+  var numProjects = Object.keys(projects["projects"].length);
+  var count = 1
+  
+  var newProj = "<div class='new-proj col-md-1'><h3 class='proj-title'>%title%</h3><p class='proj-des'></p></div>"
+  var newRow = "<div class='proj-row row'></div>"
+  
+  
+  function newRow(){
+    while (count % 3 == 1){
+      $('#project-mural').append(newRow);
+    }
+  }
+  
+  
+  function addProject(){
+    
+  }
+  
+  $("#test-proj").css("background-image", "url('/assets/RandomQuote')")
+  
 }
 
 
 
 
+
+
+function displayAllProj(){
+  navIt();
+  displayIt();
+  displayRes();
+  createProjects();
+}
+
+
+
 $(document).ready( displayAllProj);
 $(document).on('page:load', displayAllProj);
-
-
