@@ -1,28 +1,33 @@
 
 
 #project-mural{
-  
+  padding: 0px;
 }
 
 .proj-row{
+
   
 }
 
 .new-proj{
   color: black;
-  border: 1px solid black;
-  height: 200px;
-  
+  border: 1px solid white;
+  height: 30vh;
+  background-size: 100% 100%;
 }
+
 
 .proj-title{
   color: black;
+  display: none;
+
 }
 
 .proj-des{
-  
+  color: black;
+  display: none;
+
 }
 
-#test-proj{
-  background-size: 100% 100%;
-}
+
+

@@ -6,12 +6,6 @@ var projects = {
       "url": "https://simon-says-ia.herokuapp.com"
     },
 
-    {
-      "title": "Javascript Calculator",
-      "dates": "Jun. 2016",
-      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
-      "url": "https://theartilect.github.io/calculator/"
-    }, 
     
     {
       "title": "Tic Tac Toe",
@@ -19,6 +13,13 @@ var projects = {
       "description": "A tic tac toe game. (github-pages)",
       "url": "https://theartilect.github.io/TickyTacky/"
     },
+    
+    {
+      "title": "Javascript Calculator",
+      "dates": "Jun. 2016",
+      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
+      "url": "https://theartilect.github.io/calculator/"
+    }, 
     
     {
       "title": "Random Quote Generator",
@@ -60,12 +61,7 @@ var projects = {
       "url": "http://codepen.io/TheArtilect/full/pbwbbW/"
     }, 
     
-    {
-      "title": "Local Weather App",
-      "dates": "Apr. 2016",
-      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation. (Chrome incompatibility, will recreate with different API in the future).",
-      "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
-    }, 
+
     
     {
       "title": "Finance Tracker",
@@ -76,6 +72,12 @@ var projects = {
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
     }, 
     /*
+    {
+      "title": "Local Weather App",
+      "dates": "Apr. 2016",
+      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation. (Chrome incompatibility, will recreate with different API in the future).",
+      "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
+    }, 
     {
       "title": "Photo App",
       "dates": "Mar. 2016",
@@ -179,24 +181,58 @@ function createProjects(){
   var numProjects = Object.keys(projects["projects"].length);
   var count = 1
   
-  var newProj = "<div class='new-proj col-md-1'><h3 class='proj-title'>%title%</h3><p class='proj-des'></p></div>"
-  var newRow = "<div class='proj-row row'></div>"
+  var newProj = "<a target='_blank' href='%link%' class='thumb-link'><div class='new-proj col-md-4'><h3 class='proj-title'>%title%</h3><p class='proj-des'>%description%</p></div></a>"
+  var newRow = "<div class='row proj-row'></div>"
   
   
-  function newRow(){
-    while (count % 3 == 1){
-      $('#project-mural').append(newRow);
-    }
+  var projectThumbs = {
+    1: 'SimonSays.png',
+    2: "TicTacToe.png",
+    3: "JavascriptCalculator.png",
+    4: "RandomQuote.png",
+    5: "PomodoroTimer.png",
+    6: "TwitchIt.png",
+    7: "WikiIt.png",
+    8: "MovingCompanion.png",
+    9: "FinanceTracker.png",
+    10: "Tribute.png",
+    11: "AlphaBlog.png"
   }
   
-  
-  function addProject(){
+  function addProjects(){
+    for (project in projects.projects){
+      if (count % 3 == 1){
+        $("#project-mural").append(newRow)
+      }
+      var picLink = newProj.replace("%link%", projects.projects[project].url)
+      var newProjTitle = picLink.replace("%title%", projects.projects[project].title)
+      var newProjFormatted = newProjTitle.replace("%description%", projects.projects[project].description)
+      $(".proj-row:last").append(newProjFormatted);
+      var picUrl = "url('assets/" + projectThumbs[count] +"')"
+      $(".new-proj:last").css("background-image", picUrl)
+      count += 1;
+    }
+
     
   }
   
-  $("#test-proj").css("background-image", "url('/assets/RandomQuote')")
+  addProjects();
+
+
+  $(".thumb-link")
+    .mouseover( function(){
+      $(this).find('.new-proj').css('opacity', '0.3');
+      $(this).find(".proj-title").css('display', 'block');
+      $(this).find(".proj-des").css('display', 'block');
+    })
+    .mouseout(function(){
+      $(this).find('.new-proj').css("opacity", '1.0')
+      $(this).find(".proj-title").css('display', 'none')
+      $(this).find(".proj-des").css('display', 'none')
+    });
   
 }
+
 
 
 
