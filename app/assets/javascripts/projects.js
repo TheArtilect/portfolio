@@ -112,7 +112,7 @@ var projects = {
 
   ]
 }
-
+/*
 var projectStart = '<div class="entry"></div>';
 var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
 var projectInfo = '<p class="description">Description: %data%</p>';
@@ -139,6 +139,7 @@ function displayIt() {
 
   }
 }
+*/
 
 
 
@@ -222,12 +223,14 @@ function createProjects(){
   
   $(".thumb-link")
     .mouseover( function(){
+      $(this).css('opacity', "0.8")
       back = $(this).find('.new-proj').css("background-image");
       $(this).find(".new-proj").css("background-image", 'none')
       $(this).find(".proj-title").css('display', 'block');
       $(this).find(".proj-des").css('display', 'block');
     })
     .mouseout(function(){
+      $(this).css('opacity', "1.0")
       $(this).find(".new-proj").css("background-image", back)
       $(this).find(".proj-title").css('display', 'none')
       $(this).find(".proj-des").css('display', 'none')
@@ -243,7 +246,6 @@ function createProjects(){
 
 function displayAllProj(){
   navIt();
-  displayIt();
   displayRes();
   createProjects();
 }
