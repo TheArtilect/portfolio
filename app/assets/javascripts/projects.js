@@ -218,15 +218,17 @@ function createProjects(){
   
   addProjects();
 
-
+  var back;
+  
   $(".thumb-link")
     .mouseover( function(){
-      $(this).find('.new-proj').css('opacity', '0.3');
+      back = $(this).find('.new-proj').css("background-image");
+      $(this).find(".new-proj").css("background-image", 'none')
       $(this).find(".proj-title").css('display', 'block');
       $(this).find(".proj-des").css('display', 'block');
     })
     .mouseout(function(){
-      $(this).find('.new-proj').css("opacity", '1.0')
+      $(this).find(".new-proj").css("background-image", back)
       $(this).find(".proj-title").css('display', 'none')
       $(this).find(".proj-des").css('display', 'none')
     });
