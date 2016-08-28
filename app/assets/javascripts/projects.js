@@ -112,39 +112,6 @@ var projects = {
 
   ]
 }
-/*
-var projectStart = '<div class="entry"></div>';
-var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
-var projectInfo = '<p class="description">Description: %data%</p>';
-var projectProd = '<p class="description">%data%</p>';
-var projectDate = '<p class="date">Date: %data%</p>'
-
-
-function displayIt() {
-  for (project in projects.projects) {
-    $("#project-entries").append(projectStart);
-    
-
-    var link = projectLink.replace("%link%", projects.projects[project].url);
-    var title = link.replace("%data%", projects.projects[project].title);
-    $(".entry:last").append(title);
-
-
-    var description = projectInfo.replace("%data%", projects.projects[project].description);
-    $(".entry:last").append(description);
-    
-
-    var date = projectDate.replace("%data%", projects.projects[project].dates)
-    $(".entry:last").append(date);
-
-  }
-}
-*/
-
-
-
-
-
 
 
 
@@ -175,15 +142,11 @@ function displayRes() {
 
 
 
-
-
 /* redux projects */
 function createProjects(){
-  var numProjects = Object.keys(projects["projects"].length);
   var count = 1
-  
-  var newProj = "<a target='_blank' href='%link%' class='thumb-link'><div class='new-proj col-md-4'><h3 class='proj-title'>%title%</h3><p class='proj-des'>%description%</p></div></a>"
-  var newRow = "<div class='row proj-row'></div>"
+
+
   
   
   var projectThumbs = {
@@ -199,6 +162,89 @@ function createProjects(){
     10: "Tribute.png",
     11: "AlphaBlog.png"
   }
+  
+ 
+ 
+  var newTRow = "<tr class='t-row'></tr>"
+  var projTD = "<td class='proj-td col-md-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p></div></a></td>"
+  
+
+  function addTable(){
+    for (project in projects.projects){
+      if (count % 3 == 1){
+        $("#mural").append(newTRow);
+      }
+      var pLink = projTD.replace("%link%", projects.projects[project].url)
+      var Title = pLink.replace("%title%", projects.projects[project].title)
+      var formattedProject = Title.replace("%description%", projects.projects[project].description)
+      $(".t-row:last").append(formattedProject)
+      var picUrl = "url('assets/" + projectThumbs[count] +"')"
+      $('.proj-td:last').css("background-image", picUrl)
+      
+      count += 1
+    }
+  }
+  
+  addTable();
+    
+    
+
+  var back;
+  
+  $(".click")
+    .mouseover( function(){
+      $(this).css('opacity', "0.8")
+      back = $(this).css("background-image");
+      console.log(back)
+      $(this).css('background-image', 'none')
+      $(this).find('.inside').css('display', 'block')
+
+    })
+    .mouseout(function(){
+      $(this).css('opacity', '1.0')
+      $(this).css('background-image', back)
+      $(this).find('.inside').css('display', 'none')
+      
+    });
+  
+}
+
+
+
+
+function displayAllProj(){
+  navIt();
+  displayRes();
+  createProjects();
+}
+
+
+
+$(document).ready( displayAllProj);
+$(document).on('page:load', displayAllProj);
+
+
+ /*
+ 
+ 
+   $(".thumb-link")
+    .mouseover( function(){
+      $(this).css('opacity', "0.8")
+      back = $(this).find('.new-proj').css("background-image");
+      $(this).find(".new-proj").css("background-image", 'none')
+      $(this).find(".proj-title").css('display', 'block');
+      $(this).find(".proj-des").css('display', 'block');
+    })
+    .mouseout(function(){
+      $(this).css('opacity', "1.0")
+      $(this).find(".new-proj").css("background-image", back)
+      $(this).find(".proj-title").css('display', 'none')
+      $(this).find(".proj-des").css('display', 'none')
+    });
+  
+    
+  var newProj = "<a target='_blank' href='%link%' class='thumb-link'><div class='new-proj col-md-4'><h3 class='proj-title'>%title%</h3><p class='proj-des'>%description%</p></div></a>"
+  var newRow = "<div class='row proj-row'></div>"
   
   function addProjects(){
     for (project in projects.projects){
@@ -216,41 +262,57 @@ function createProjects(){
 
     
   }
+  */
   
-  addProjects();
+  //addProjects();
+  /*
+  function addProjectsTable(){
+    for (project in projects.projects){
+      if (count % 3 == 1){
+        $("#mural").append(newTRow);
+        console.log(newTRow)
+      }
+      var tdLink = projTD.replace("%link%", projects.projects[project].url)
+      var newProjTitle = tdLink.replace("%title%", projects.projects[project].title)
+      var newProjFormatted = newProjTitle.replace("%description%", projects.projects[project].description)
+      console.log(newProjFormatted)
+      $(".t-row:last").append(newProjFormatted);
+      var picUrl = "url('assets/" + projectThumbs[count] +"')"
+      $(".proj-td:last").css("background-image", picUrl)
+      count += 1;
+    }
+  }
 
-  var back;
+  addProjectsTable();
+  */
   
-  $(".thumb-link")
-    .mouseover( function(){
-      $(this).css('opacity', "0.8")
-      back = $(this).find('.new-proj').css("background-image");
-      $(this).find(".new-proj").css("background-image", 'none')
-      $(this).find(".proj-title").css('display', 'block');
-      $(this).find(".proj-des").css('display', 'block');
-    })
-    .mouseout(function(){
-      $(this).css('opacity', "1.0")
-      $(this).find(".new-proj").css("background-image", back)
-      $(this).find(".proj-title").css('display', 'none')
-      $(this).find(".proj-des").css('display', 'none')
-    });
-  
+  /*
+
+OLD WAY OF JUST LISTING ITEMS
+var projectStart = '<div class="entry"></div>';
+var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
+var projectInfo = '<p class="description">Description: %data%</p>';
+var projectProd = '<p class="description">%data%</p>';
+var projectDate = '<p class="date">Date: %data%</p>'
+
+
+function displayIt() {
+  for (project in projects.projects) {
+    $("#project-entries").append(projectStart);
+    
+
+    var link = projectLink.replace("%link%", projects.projects[project].url);
+    var title = link.replace("%data%", projects.projects[project].title);
+    $(".entry:last").append(title);
+
+
+    var description = projectInfo.replace("%data%", projects.projects[project].description);
+    $(".entry:last").append(description);
+    
+
+    var date = projectDate.replace("%data%", projects.projects[project].dates)
+    $(".entry:last").append(date);
+
+  }
 }
-
-
-
-
-
-
-
-function displayAllProj(){
-  navIt();
-  displayRes();
-  createProjects();
-}
-
-
-
-$(document).ready( displayAllProj);
-$(document).on('page:load', displayAllProj);
+*/

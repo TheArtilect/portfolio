@@ -4,31 +4,59 @@
   padding: 0px;
 }
 
-.proj-row{
 
+
+
+
+
+.proj-td{
+  color: black;
+  border: 1px solid white;
+  height: 27vh;
+  background-size: 100% 100%;
+  background-color: #363636;
+
+}
+
+
+
+#mural {
+  width: 100%;
+}
+
+td{
+  padding: 0;
+  color: white;
+  margin: 0;
+  
   
 }
 
-.new-proj{
-  color: black;
-  border: 1px solid white;
-  height: 30vh;
-  background-size: 100% 100%;
-  background-color: #363636;
+
+.p-title{
+  font-size: 20px;
+  margin-top: 5vh;
+  text-align: center;
 }
 
+.p-des {
+  font-size: 15px;
+  text-align: center;
 
-.proj-title{
+}
+
+.thumb-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.inside {
   color: white;
   display: none;
-
+  
 }
 
-.proj-des{
-  color: white;
-  display: none;
-
+a.thumb-link {
+  text-decoration: none;
 }
-
-
-
