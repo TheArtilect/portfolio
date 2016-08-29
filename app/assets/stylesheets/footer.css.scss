@@ -1,15 +1,12 @@
-footer {
+#footie {
   display: block;
   color: black;
-  width: 100%;
-  height: 125px;
+  height: 100%;
   background-color: #000019;
+  background-size: 100% 100%;
 }
 
 
-#foot-ul{
-  columns: 2;
-}
 
 .connect-div {
   display: inline;
@@ -43,7 +40,6 @@ footer {
 #euler {
   height: 55px;
   width: 200px;
-  margin-left: 11px;
 }
 
 
@@ -61,47 +57,15 @@ footer {
   color: #4C0000;
 }
 
-/*
-
-Old Way
-
-footer {
-  display: block;
-  color: black;
-  width: 100%;
-  height: 180px;
-  background-color: #000019;
+.fa {
+  font-size: 32px;
 }
-
 
 #foot-p{
-  color: white;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 17%;
-  font-weight: bold;
-  padding-top: 8px;
+  font-size: 36px;
+  float: left;
 }
 
-.con-info{
-  list-style-type: none;
-  font-size: 14px;
-  color: white;
-  margin: 0;
+.foot-row {
+  padding-top: 2vh;
 }
-
-.foot-div{
-  display: inline;
-  margin-top: -8px;
-}
-
-.letter {
-  color: white;
-}
-
-.letter:hover{
-  color: #4C0000;
-}
-
-*/
-
