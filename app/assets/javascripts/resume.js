@@ -36,13 +36,13 @@ function displayExp() {
     "jobs": [{
       "title": "Director of Operations",
       "employer": "MHH Clinical Services",
-      "dates": "2014 - Present",
+      "dates": "2015 - Present",
       "location": "New York",
       "description": "Oversee and direct business operations.  MHH Clinical Services is a small company that works with not-for-profit community agencies to provide psychotherapy, speech therapy, and occupational therapy to intellectually-disabled individuals in the New York City area."
     }, {
       "title": "Administrator",
       "employer": "MHH Clinical Services",
-      "dates": "2012 - 2014",
+      "dates": "2012 - 2015",
       "location": "New York",
       "description": "Administration, staffing, management and supervision (25+ employees).  Served as liaison between various agencies and organizations.  Performed Quality Assurance to ensure compliance with state and clinic regulations.  Maintained and managed business accounts."
     }, {
@@ -62,7 +62,7 @@ function displayExp() {
       "employer": "CUNY - Hunter College",
       "dates": "2009",
       "location": "New York",
-      "description": "Performed literature search of relevant studies to provide background for the current study.  Prepared test materials, which included the manipulation of articles to include contextually inappropriate error words.  Error words were chosen based on lexical class, word frequency, and syntactic status, through the use of the Hyperspace Analogue to Language database.  Administered the study to test subjects, then coded and analyzed data using SPSS. My honors thesis was integrated into the larger study and has since been published."
+      "description": "Performed literature search to provide background for the current study.  Prepared test materials, which included the manipulation of articles to include contextually inappropriate error words.  Error words were chosen based on lexical class, word frequency, and syntactic status, through the use of the Hyperspace Analogue to Language database.  Administered the study to test subjects, then coded and analyzed data using SPSS. My honors thesis was integrated into a larger study and has since been published."
     }, {
       "title": "Statistics Tutor",
       "employer": "CUNY - Hunter College",
