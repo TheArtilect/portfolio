@@ -24,7 +24,7 @@ function navIt(){
   function dropDowns(){
     if (page == "home"){
      $(".resume-drop").css("display", "none");
-     $(".home-drop").show();
+     $(".home-drop").show(); // By Ian Agpawa
     } else if (page == 'resume'){
       $(".home-drop").css("display", "none");
       $(".resume-drop").show();

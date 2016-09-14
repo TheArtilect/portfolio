@@ -91,7 +91,7 @@ function displayExp() {
     $(".exp-entry:last").append(title);
 
     var employer = expEmployer.replace("%data%", work.jobs[job].employer)
-    $(".exp-entry:last").append(employer);
+    $(".exp-entry:last").append(employer); // By Ian Agpawa
 
     var location = expInfo.replace("%loc%", work.jobs[job].location);
     var date = location.replace("%date%", work.jobs[job].dates)

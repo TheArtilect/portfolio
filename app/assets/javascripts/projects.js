@@ -1,31 +1,47 @@
 var projects = {
   "projects": [{
+      "title": "TimeStamp",
+      "dates": "Sep. 2016",
+      "description": "A timestamp microservice. First Node api project. (Node/Heroku)",
+      "url": "https://timestamp-microservice-ia.herokuapp.com/",
+      "thumbnail": "timestamp.png",
+      "type": "back-end"
+    }, 
+
+    {
       "title": "Simon Says",
       "dates": "Jul. 2016",
       "description": "A Simon Says game. First project utilizing audio elements and setTimeout(). (Rails/Heroku)",
-      "url": "https://simon-says-ia.herokuapp.com"
+      "url": "https://simon-says-ia.herokuapp.com",
+      "thumbnail": "SimonSays.png",
+      "type": "front-end"
     },
 
-    
     {
       "title": "Tic Tac Toe",
       "dates": "Jul. 2016",
       "description": "A tic tac toe game. (github-pages)",
-      "url": "https://theartilect.github.io/TickyTacky/"
+      "url": "https://theartilect.github.io/TickyTacky/",
+      "thumbnail": "TicTacToe.png",
+      "type": "front-end"
     },
     
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
       "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
-      "url": "https://theartilect.github.io/calculator/"
+      "url": "https://theartilect.github.io/calculator/",
+      "thumbnail": "JavascriptCalculator.png",
+      "type": "front-end"
     }, 
     
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
       "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
-      "url": "https://rand-quote-gen.herokuapp.com/"
+      "url": "https://rand-quote-gen.herokuapp.com/",
+      "thumbnail": "RandomQuote.png",
+      "type": "front-end"
     },
     
     
@@ -33,7 +49,9 @@ var projects = {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
       "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval(). (Rails/Heroku)",
-      "url": "https://pomodoro-timer-ia.herokuapp.com/"
+      "url": "https://pomodoro-timer-ia.herokuapp.com/",
+      "thumbnail": "PomodoroTimer.png",
+      "type": "front-end"
     },
     
 
@@ -42,14 +60,18 @@ var projects = {
       "title": "Twitch-It",
       "dates": "May 2016",
       "description": "For tracking some Twitch streamers.  Utilized Twitch API. (Rails/Heroku)",
-      "url": "https://twitch-it.herokuapp.com/"
+      "url": "https://twitch-it.herokuapp.com/",
+      "thumbnail": "TwitchIt.png",
+      "type": "front-end"
     }, 
     
     {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
       "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API. (Rails/Heroku)",
-      "url": "https://wiki-it-ia.herokuapp.com"
+      "url": "https://wiki-it-ia.herokuapp.com",
+      "thumbnail": "WikiIt.png",
+      "type": "front-end"
       /*
       "url": "https://theartilect.github.io/wiki/"
       */
@@ -58,10 +80,10 @@ var projects = {
       "title": "Moving Companion",
       "dates": "Apr. 2016",
       "description": "Simple location integrated look up (Google, NYT, Wikipedia). Styling not finished.",
-      "url": "http://codepen.io/TheArtilect/full/pbwbbW/"
+      "url": "http://codepen.io/TheArtilect/full/pbwbbW/",
+      "thumbnail": "MovingCompanion.png",
+      "type": "front-end"
     }, 
-    
-
     
     {
       "title": "Finance Tracker",
@@ -69,7 +91,9 @@ var projects = {
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
       "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. (Rails/Heroku)",
-      "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in"
+      "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in",
+      "thumbnail": "FinanceTracker.png",
+      "type": "front-end"
     }, 
     /*
     {
@@ -98,7 +122,9 @@ var projects = {
       "title": "Tribute Project",
       "dates": "Feb. 2016",
       "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project. (Rails/Heroku)",
-      "url": "https://hunter-s-tribute.herokuapp.com/"
+      "url": "https://hunter-s-tribute.herokuapp.com/",
+      "thumbnail": "Tribute.png",
+      "type": "front-end"
     },
 
     {
@@ -107,7 +133,9 @@ var projects = {
       "description": "My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.  (Rails/Heroku)",
       "onlineSchool": "Udemy",
       "course": "The Complete Ruby on Rails Developer Course",
-      "url": "https://project-prometheus-alphablog.herokuapp.com/"
+      "url": "https://project-prometheus-alphablog.herokuapp.com/",
+      "thumbnail": "AlphaBlog.png",
+      "type": "front-end"
     },
 
   ]
@@ -145,23 +173,6 @@ function displayRes() {
 /* redux projects */
 function createProjects(){
   var count = 1
-
-
-  
-  
-  var projectThumbs = {
-    1: 'SimonSays.png',
-    2: "TicTacToe.png",
-    3: "JavascriptCalculator.png",
-    4: "RandomQuote.png",
-    5: "PomodoroTimer.png",
-    6: "TwitchIt.png",
-    7: "WikiIt.png",
-    8: "MovingCompanion.png",
-    9: "FinanceTracker.png",
-    10: "Tribute.png",
-    11: "AlphaBlog.png"
-  }
   
  
  
@@ -173,12 +184,12 @@ function createProjects(){
     for (project in projects.projects){
       if (count % 3 == 1){
         $("#mural").append(newTRow);
-      }
+      } // By Ian Agpawa
       var pLink = projTD.replace("%link%", projects.projects[project].url)
       var Title = pLink.replace("%title%", projects.projects[project].title)
       var formattedProject = Title.replace("%description%", projects.projects[project].description)
       $(".t-row:last").append(formattedProject)
-      var picUrl = "url('assets/" + projectThumbs[count] +"')"
+      var picUrl = "url('assets/" + projects.projects[project].thumbnail +"')"
       $('.proj-td:last').css("background-image", picUrl)
       
       count += 1
@@ -222,97 +233,3 @@ function displayAllProj(){
 
 $(document).ready( displayAllProj);
 $(document).on('page:load', displayAllProj);
-
-
- /*
- 
- 
-   $(".thumb-link")
-    .mouseover( function(){
-      $(this).css('opacity', "0.8")
-      back = $(this).find('.new-proj').css("background-image");
-      $(this).find(".new-proj").css("background-image", 'none')
-      $(this).find(".proj-title").css('display', 'block');
-      $(this).find(".proj-des").css('display', 'block');
-    })
-    .mouseout(function(){
-      $(this).css('opacity', "1.0")
-      $(this).find(".new-proj").css("background-image", back)
-      $(this).find(".proj-title").css('display', 'none')
-      $(this).find(".proj-des").css('display', 'none')
-    });
-  
-    
-  var newProj = "<a target='_blank' href='%link%' class='thumb-link'><div class='new-proj col-md-4'><h3 class='proj-title'>%title%</h3><p class='proj-des'>%description%</p></div></a>"
-  var newRow = "<div class='row proj-row'></div>"
-  
-  function addProjects(){
-    for (project in projects.projects){
-      if (count % 3 == 1){
-        $("#project-mural").append(newRow)
-      }
-      var picLink = newProj.replace("%link%", projects.projects[project].url)
-      var newProjTitle = picLink.replace("%title%", projects.projects[project].title)
-      var newProjFormatted = newProjTitle.replace("%description%", projects.projects[project].description)
-      $(".proj-row:last").append(newProjFormatted);
-      var picUrl = "url('assets/" + projectThumbs[count] +"')"
-      $(".new-proj:last").css("background-image", picUrl)
-      count += 1;
-    }
-
-    
-  }
-  */
-  
-  //addProjects();
-  /*
-  function addProjectsTable(){
-    for (project in projects.projects){
-      if (count % 3 == 1){
-        $("#mural").append(newTRow);
-        console.log(newTRow)
-      }
-      var tdLink = projTD.replace("%link%", projects.projects[project].url)
-      var newProjTitle = tdLink.replace("%title%", projects.projects[project].title)
-      var newProjFormatted = newProjTitle.replace("%description%", projects.projects[project].description)
-      console.log(newProjFormatted)
-      $(".t-row:last").append(newProjFormatted);
-      var picUrl = "url('assets/" + projectThumbs[count] +"')"
-      $(".proj-td:last").css("background-image", picUrl)
-      count += 1;
-    }
-  }
-
-  addProjectsTable();
-  */
-  
-  /*
-
-OLD WAY OF JUST LISTING ITEMS
-var projectStart = '<div class="entry"></div>';
-var projectLink = '<h3 class="pj-title"><a class="proj-links" target="_blank" href="%link%">%data%</a></h3>';
-var projectInfo = '<p class="description">Description: %data%</p>';
-var projectProd = '<p class="description">%data%</p>';
-var projectDate = '<p class="date">Date: %data%</p>'
-
-
-function displayIt() {
-  for (project in projects.projects) {
-    $("#project-entries").append(projectStart);
-    
-
-    var link = projectLink.replace("%link%", projects.projects[project].url);
-    var title = link.replace("%data%", projects.projects[project].title);
-    $(".entry:last").append(title);
-
-
-    var description = projectInfo.replace("%data%", projects.projects[project].description);
-    $(".entry:last").append(description);
-    
-
-    var date = projectDate.replace("%data%", projects.projects[project].dates)
-    $(".entry:last").append(date);
-
-  }
-}
-*/
