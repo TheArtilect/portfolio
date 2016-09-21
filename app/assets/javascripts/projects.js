@@ -1,8 +1,18 @@
 var projects = {
-  "projects": [{
+  "projects": [
+    {
+      "title": "Request Header Parser",
+      "dates": "Sep. 2016",
+      "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
+      "url": "https://header-parser-ia.herokuapp.com/",
+      "thumbnail": "headerParser.png",
+      "type": "back-end"
+    }, 
+    
+    {
       "title": "TimeStamp",
       "dates": "Sep. 2016",
-      "description": "A timestamp microservice. First Node api project. (Node/Heroku)",
+      "description": "A timestamp microservice.  First Node api project. (Node/Heroku)",
       "url": "https://timestamp-microservice-ia.herokuapp.com/",
       "thumbnail": "timestamp.png",
       "type": "back-end"
@@ -177,7 +187,7 @@ function createProjects(){
  
  
   var newTRow = "<tr class='t-row'></tr>"
-  var projTD = "<td class='proj-td col-md-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p></div></a></td>"
+  var projTD = "<td class='proj-td col-md-4 col-xs-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p></div></a></td>"
   
 
   function addTable(){
