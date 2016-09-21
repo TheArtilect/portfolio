@@ -45,7 +45,7 @@ body {
   list-style-type: none;
   margin-left: 10px;
   font-size: 13px;
-  
+
 }
 
 
@@ -214,7 +214,7 @@ project page
   padding: 20px 0px 10px 0px;
   color: black;
 
- 
+
 
 }
 
@@ -266,7 +266,7 @@ div.entry a{
 
 .about-s, .about-l, .about-i {
   display: inline;
-  
+
 }
 
 #l-p,
@@ -297,7 +297,7 @@ div.entry a{
   padding-bottom: 20px;
   opacity: .8;
   background-color: white;
-  
+
 }
 
 #proj-h1 {
@@ -329,7 +329,7 @@ div.entry a{
   text-align: left;
   font-weight: bold;
   text-shadow: 1px 1px black;
-  
+
 }
 
 #resume-page{
@@ -350,3 +350,8 @@ div.entry a{
 }
 
 
+#iframe {
+  width: 50vw;
+  height: 60vh;
+  margin-top: 5vh;
+}
