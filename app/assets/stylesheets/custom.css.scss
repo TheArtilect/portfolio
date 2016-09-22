@@ -22,16 +22,19 @@ body {
 
 #title-card{
   //margin-top: 76px;
-  margin-top: 12vh;
+  margin-top: 10vh;
   font-size: 2.5em;
 
 
 }
 
-.shortcuts{
-  float: right;
+//link buttons
+.but-lin {
+  font-size: 1em;
 }
 
+
+// shortcut links on first page
 .pg-link{
   color: white;
   display: inline;
@@ -236,9 +239,7 @@ div.entry a{
 }
 
 
-#about-p{
-  text-align: center;
-}
+
 .about-h2, #about-h1, #my-h1, .pj-title  {
   margin-top: 45px;
   text-align: center;
@@ -269,6 +270,11 @@ div.entry a{
 .about-s, .about-l, .about-i {
   display: inline;
 
+}
+
+
+#me-p {
+  font-size: 1.1em;
 }
 
 #l-p,
