@@ -12,11 +12,11 @@ function displayBio() {
     "location": "New York",
     "blurb": "My name is Ian and I am new to web developing.  Ask Me Anything!",
     "skills": "Web Developing, Programming, Management, Psychology, Multitasking, Interpersonal skills, Leadership skills, Statistics",
-    "languages": "Javascript, jQuery, HTML5, CSS, Linux, Git, Ruby, Ruby on Rails, Python, Bootstrap, SPSS, QuickBooks",
+    "languages": "Javascript, jQuery, HTML5, CSS, Linux, Git, NodeJS, ExpressJS,  Ruby, Ruby on Rails, Python, Bootstrap, Jade, SPSS, QuickBooks",
     "interests": "audiophile (headphones), music, PC Master Race(<a href='http://pcpartpicker.com/list/BfKK8K'  target='_blank' class='pc-link pc-link-r'>Current Build</a>,<a href='http://pcpartpicker.com/list/8M8vFT' target='_blank' class='pc-link pc-link-r'>First Build</a>), writing, psychology, philosophy, reading, comedy, football, basketball, cooking",
     "about": "I have a newfound passion for web development and programming, but my background is primarily in psychology.  I work with a small clinical services company that serves low-income, intellectually disabled individuals through not-for-profit community agencies in the New York City area.  Academically, my interests include posttraumatic growth, developmental psychopathology and the intergenerational transmission of dysfunction, mindfulness, and the perception and psychology of music.  I am also an amateur headphone audiophile, and enjoy building computers.  My next hardware project is to build a wireless access point and a NAS server router from upcycled parts.",
   }
-  
+
 
   $("#sk-p").html(bio.skills);
   $("#l-p").html(bio.languages);
@@ -24,9 +24,9 @@ function displayBio() {
   $("#i-p-f").html(bio.interests);
   $("#me-p").html(bio.about);
   $("#resume-blurb").html(bio.blurb);
-  
 
- 
+
+
 
 }
 
@@ -270,14 +270,14 @@ function displayEd() {
     var site = onInfo.replace("%site%", education.onlineCourses[course].school);
     var dates = site.replace("%dates%", education.onlineCourses[course].dates);
     $(".on-entry:last").append(dates);
-    
+
     if (education.onlineCourses[course].certificate){
       var certificateTemp = "<p class='res-p'><a target='_blank' href='%data%'>Certificate</a></p>";
       var cert = certificateTemp.replace("%data%", education.onlineCourses[course].certificate);
       $(".on-entry:last").append(cert);
     }
-    
-    
+
+
 
   }
 
