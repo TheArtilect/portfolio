@@ -6,9 +6,7 @@
 
 
 
-@media only screen and (max-width: 400px) {
-body { font-size:90%;}
-}
+
 
 body {
   height: 100%;
@@ -47,9 +45,8 @@ body {
 .listing {
   margin-top: 1vh;
   list-style-type: none;
-
   margin-left: 1vw;
-  font-size: .8vh;
+  font-size: 1.1em;
 }
 
 
@@ -90,6 +87,7 @@ h1 {
 
 .button {
   padding: 1vh;
+  font-size: 1em;
   background-color: #b36b00;
   margin-right: 0.5vw;
   border: 1px solid #fff;
