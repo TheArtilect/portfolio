@@ -1,14 +1,23 @@
 var projects = {
   "projects": [
     {
+      "title": "Url Shortener",
+      "dates": "Sep. 2016",
+      "description": "A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.  (Node/Heroku/MongoDB)",
+      "url": "https://u-short.herokuapp.com/",
+      "thumbnail": "UrlShortener.png",
+      "type": "back-end"
+    },
+
+    {
       "title": "Request Header Parser",
       "dates": "Sep. 2016",
       "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
       "url": "https://header-parser-ia.herokuapp.com/",
       "thumbnail": "headerParser.png",
       "type": "back-end"
-    }, 
-    
+    },
+
     {
       "title": "TimeStamp",
       "dates": "Sep. 2016",
@@ -16,7 +25,7 @@ var projects = {
       "url": "https://timestamp-microservice-ia.herokuapp.com/",
       "thumbnail": "timestamp.png",
       "type": "back-end"
-    }, 
+    },
 
     {
       "title": "Simon Says",
@@ -35,7 +44,7 @@ var projects = {
       "thumbnail": "TicTacToe.png",
       "type": "front-end"
     },
-    
+
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
@@ -43,8 +52,8 @@ var projects = {
       "url": "https://theartilect.github.io/calculator/",
       "thumbnail": "JavascriptCalculator.png",
       "type": "front-end"
-    }, 
-    
+    },
+
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
@@ -53,8 +62,8 @@ var projects = {
       "thumbnail": "RandomQuote.png",
       "type": "front-end"
     },
-    
-    
+
+
     {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
@@ -63,9 +72,9 @@ var projects = {
       "thumbnail": "PomodoroTimer.png",
       "type": "front-end"
     },
-    
 
-    
+
+
     {
       "title": "Twitch-It",
       "dates": "May 2016",
@@ -73,8 +82,8 @@ var projects = {
       "url": "https://twitch-it.herokuapp.com/",
       "thumbnail": "TwitchIt.png",
       "type": "front-end"
-    }, 
-    
+    },
+
     {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
@@ -85,7 +94,7 @@ var projects = {
       /*
       "url": "https://theartilect.github.io/wiki/"
       */
-    }, 
+    },
     {
       "title": "Moving Companion",
       "dates": "Apr. 2016",
@@ -93,8 +102,8 @@ var projects = {
       "url": "http://codepen.io/TheArtilect/full/pbwbbW/",
       "thumbnail": "MovingCompanion.png",
       "type": "front-end"
-    }, 
-    
+    },
+
     {
       "title": "Finance Tracker",
       "dates": "Feb. - Mar. 2016",
@@ -104,14 +113,14 @@ var projects = {
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in",
       "thumbnail": "FinanceTracker.png",
       "type": "front-end"
-    }, 
+    },
     /*
     {
       "title": "Local Weather App",
       "dates": "Apr. 2016",
       "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation. (Chrome incompatibility, will recreate with different API in the future).",
       "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
-    }, 
+    },
     {
       "title": "Photo App",
       "dates": "Mar. 2016",
@@ -119,15 +128,15 @@ var projects = {
       "course": "The Complete Ruby on Rails Developer Course.",
       "description": "Ruby on Rails photo app.  Functionality not finalized, styling in progress. Currently in production (Heroku).",
       "url": "https://dry-retreat-19962.herokuapp.com/"
-    }, 
+    },
     {
       "title": "Personal Portfolio",
       "dates": "Mar. 2016",
       "description": "A personal portfolio webpage. (Rails/Heroku)",
       "url": "https://ian-agpawa.herokuapp.com/"
-    }, 
+    },
 */
-    
+
     {
       "title": "Tribute Project",
       "dates": "Feb. 2016",
@@ -154,15 +163,15 @@ var projects = {
 
 
 function displayRes() {
-  
+
   var projectStartRes = '<div class="entry-res"></div>';
   var projectLinkRes = '<h4 class="pj-title-res"><a class="proj-links-res" target="_blank" href="%link%">%data%</a></h4>';
   var projectInfoRes = '<p class="description-res res-p">Description: %data%</p>';
   var projectDateRes = '<p class="date-res">Date: %data%</p>'
-    
+
   for (project in projects.projects) {
     $(".proj-res").append(projectStartRes);
-    
+
 
     var link = projectLinkRes.replace("%link%", projects.projects[project].url);
     var title = link.replace("%data%", projects.projects[project].title);
@@ -183,12 +192,12 @@ function displayRes() {
 /* redux projects */
 function createProjects(){
   var count = 1
-  
- 
- 
+
+
+
   var newTRow = "<tr class='t-row'></tr>"
   var projTD = "<td class='proj-td col-md-4 col-xs-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p></div></a></td>"
-  
+
 
   function addTable(){
     for (project in projects.projects){
@@ -201,17 +210,17 @@ function createProjects(){
       $(".t-row:last").append(formattedProject)
       var picUrl = "url('assets/" + projects.projects[project].thumbnail +"')"
       $('.proj-td:last').css("background-image", picUrl)
-      
+
       count += 1
     }
   }
-  
+
   addTable();
-    
-    
+
+
 
   var back;
-  
+
   $(".click")
     .mouseover( function(){
       $(this).css('opacity', "0.8")
@@ -225,9 +234,9 @@ function createProjects(){
       $(this).css('opacity', '1.0')
       $(this).css('background-image', back)
       $(this).find('.inside').css('display', 'none')
-      
+
     });
-  
+
 }
 
 
