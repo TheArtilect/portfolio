@@ -79,7 +79,7 @@ function displayExp() {
   }
 
   var experienceStart = '<div class="exp-entry"></div>';
-  var expTitle = '<h4 class="exp-h4 h4-title">%data%</h4>';
+  var expTitle = '<h3 class="exp-h4 h4-title">%data%</h3>';
   var expEmployer = "<h4 class='about-h5'>%data%</h4>";
   var expInfo = '<p>%loc%, %date%</p>';
   var expDescription = '<p class="res-p">%data%</p>';
