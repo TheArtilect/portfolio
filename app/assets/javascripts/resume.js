@@ -186,11 +186,6 @@ function displayEd() {
       "dates": "November 2015",
       "url": "https://rubymonk.com/"
     }, {
-      "name": "Introduction to Computer Science and Programming",
-      "school": "MIT Open Courseware",
-      "dates": "Incomplete",
-      "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/"
-    }, {
       "name": "Google's Python Class",
       "school": "Google",
       "dates": "July 2015",
