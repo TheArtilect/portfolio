@@ -79,9 +79,9 @@ function displayExp() {
   }
 
   var experienceStart = '<div class="exp-entry"></div>';
-  var expTitle = '<h3 class="exp-h4 h4-title">%data%</h3>';
+  var expTitle = '<h4 class="exp-h4 h4-title">%data%</h4>';
   var expEmployer = "<h4 class='about-h5'>%data%</h4>";
-  var expInfo = '<p>%loc%, %date%</p>';
+  var expInfo = '<p>%date%, %loc%</p>';
   var expDescription = '<p class="res-p">%data%</p>';
 
   for (job in work.jobs) {
@@ -200,7 +200,7 @@ function displayEd() {
 
   var educationStart = '<div class="ed-entry"></div>';
   var edSchool = '<h4 class="about-h4 h4-school"><a class="school-link" href="%href%" target="_blank">%data%</a></h4>';
-  var edDegree = "<h5 class='about-h5'>%data%</h5>";
+  var edDegree = "<h4 class='about-h5'>%data%</h4>";
   var edMajor = '<p>%data%</p>';
   var edDate = '<p>%loc%, %date%</p>';
   var edProject = '<p class="res-p">%data%</p>';
@@ -253,7 +253,7 @@ function displayEd() {
 
   var onlineStart = "<div class='on-entry'></div>";
   var courseName = '<h4 class="on-h4"><a href="%href%" target="_blank" class="site-link">%data%</a></h4>';
-  var onInfo = "<p class='res-p'>%site%, %dates%</p>";
+  var onInfo = "<p class='res-p'>%dates%, %site%</p>";
 
   for (course in education.onlineCourses) {
     $(".ed-online").append(onlineStart);

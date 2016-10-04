@@ -1,6 +1,14 @@
 var projects = {
   "projects": [
     {
+      "title": "Image Search",
+      "dates": "Oct. 2016",
+      "description": "An image search microservice using the Google Custom Search API.  (Node/Heroku/MongoDB)",
+      "url": "https://imgsearch-ia.herokuapp.com/",
+      "thumbnail": "ImageSearch.png",
+      "type": "back-end"
+    },
+    {
       "title": "Url Shortener",
       "dates": "Sep. 2016",
       "description": "A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.  (Node/Heroku/MongoDB)",
