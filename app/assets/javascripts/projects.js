@@ -16,24 +16,15 @@ var projects = {
       "thumbnail": "UrlShortener.png",
       "type": "back-end"
     },
-
     {
-      "title": "Request Header Parser",
-      "dates": "Sep. 2016",
-      "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
-      "url": "https://header-parser-ia.herokuapp.com/",
-      "thumbnail": "headerParser.png",
+      "title": "Local Weather",
+      "dates": "Oct. 2016",
+      "description": "Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project. (Node/Heroku)",
+      "url": "https://weather-ia.herokuapp.com/",
+      "thumbnail": "Weather.png",
       "type": "back-end"
     },
 
-    {
-      "title": "TimeStamp",
-      "dates": "Sep. 2016",
-      "description": "A timestamp microservice.  First Node api project. (Node/Heroku)",
-      "url": "https://timestamp-microservice-ia.herokuapp.com/",
-      "thumbnail": "timestamp.png",
-      "type": "back-end"
-    },
 
     {
       "title": "Simon Says",
@@ -54,6 +45,15 @@ var projects = {
     },
 
     {
+      "title": "Random Quote Generator",
+      "dates": "Mar. 2016",
+      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
+      "url": "https://rand-quote-gen.herokuapp.com/",
+      "thumbnail": "RandomQuote.png",
+      "type": "front-end"
+    },
+
+    {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
       "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
@@ -63,22 +63,29 @@ var projects = {
     },
 
     {
-      "title": "Random Quote Generator",
-      "dates": "Mar. 2016",
-      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
-      "url": "https://rand-quote-gen.herokuapp.com/",
-      "thumbnail": "RandomQuote.png",
-      "type": "front-end"
-    },
-
-
-    {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
       "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval(). (Rails/Heroku)",
       "url": "https://pomodoro-timer-ia.herokuapp.com/",
       "thumbnail": "PomodoroTimer.png",
       "type": "front-end"
+    },
+    {
+      "title": "Request Header Parser",
+      "dates": "Sep. 2016",
+      "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
+      "url": "https://header-parser-ia.herokuapp.com/",
+      "thumbnail": "headerParser.png",
+      "type": "back-end"
+    },
+
+    {
+      "title": "TimeStamp",
+      "dates": "Sep. 2016",
+      "description": "A timestamp microservice.  First Node api project. (Node/Heroku)",
+      "url": "https://timestamp-microservice-ia.herokuapp.com/",
+      "thumbnail": "timestamp.png",
+      "type": "back-end"
     },
 
 
@@ -123,12 +130,7 @@ var projects = {
       "type": "front-end"
     },
     /*
-    {
-      "title": "Local Weather App",
-      "dates": "Apr. 2016",
-      "description": "For showing local weather.  My first API project.  Utilized OpenWeather API and browser geolocation. (Chrome incompatibility, will recreate with different API in the future).",
-      "url": "http://codepen.io/TheArtilect/full/zqPRYR/"
-    },
+
     {
       "title": "Photo App",
       "dates": "Mar. 2016",
@@ -137,12 +139,7 @@ var projects = {
       "description": "Ruby on Rails photo app.  Functionality not finalized, styling in progress. Currently in production (Heroku).",
       "url": "https://dry-retreat-19962.herokuapp.com/"
     },
-    {
-      "title": "Personal Portfolio",
-      "dates": "Mar. 2016",
-      "description": "A personal portfolio webpage. (Rails/Heroku)",
-      "url": "https://ian-agpawa.herokuapp.com/"
-    },
+
 */
 
     {
