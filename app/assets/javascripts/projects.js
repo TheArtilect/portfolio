@@ -166,6 +166,7 @@ var projects = {
 }
 
 
+//resume
 
 function displayRes() {
 
@@ -199,9 +200,8 @@ function createProjects(){
   var count = 1
 
 
-
   var newTRow = "<tr class='t-row'></tr>"
-  var projTD = "<td class='proj-td col-md-4 col-xs-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p></div></a></td>"
+  var projTD = "<td class='proj-td col-md-4 col-xs-4 click'><a target='_blank' href='%link%' class='thumb-link'><div class='inside'><p class='p-title'>%title%</p><p class='p-des'>%description%</p><p class='p-tools'>%tools%</p></div></a></td>"
 
 
   function addTable(){
@@ -211,11 +211,16 @@ function createProjects(){
       } // By Ian Agpawa
       var pLink = projTD.replace("%link%", projects.projects[project].url)
       var Title = pLink.replace("%title%", projects.projects[project].title)
-      var formattedProject = Title.replace("%description%", projects.projects[project].description)
+      var pTools = Title.replace("%description%", projects.projects[project].description)
+      var formattedProject;
+      if (projects.projects[project].tools){
+        formattedProject = pTools.replace("%tools%", projects.projects[project].tools.join(", "))
+      } else {
+        formattedProject = pTools.replace("%tools%", "")
+      }
       $(".t-row:last").append(formattedProject)
       var picUrl = "url('assets/" + projects.projects[project].thumbnail +"')"
       $('.proj-td:last').css("background-image", picUrl)
-
       count += 1
     }
   }
