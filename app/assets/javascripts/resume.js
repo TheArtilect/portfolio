@@ -202,7 +202,7 @@ function displayEd() {
   var edSchool = '<h4 class="about-h4 h4-school"><a class="school-link" href="%href%" target="_blank">%data%</a></h4>';
   var edDegree = "<h4 class='about-h5'>%data%</h4>";
   var edMajor = '<p>%data%</p>';
-  var edDate = '<p>%loc%, %date%</p>';
+  var edDate = '<p>%date%, %loc%</p>';
   var edProject = '<p class="res-p">%data%</p>';
   var edAwardsStart = '<ul class="ed-awards">Awards</ul>'
   var edAwards = '<li class="ed-awards-li">%data%</li>';
