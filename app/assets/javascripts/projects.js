@@ -71,6 +71,14 @@ var projects = {
       "type": "front-end"
     },
     {
+      "title": "File Metadata",
+      "dates": "Oct. 2016",
+      "description": "A file metadata microservice.  Uploading files will return a JSON object of the file's name, file type, and size in bytes.  (Node/Heroku)",
+      "url": "https://metadata-ia.herokuapp.com/",
+      "thumbnail": "metadata.png",
+      "type": "back-end"
+    },
+    {
       "title": "Request Header Parser",
       "dates": "Sep. 2016",
       "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
