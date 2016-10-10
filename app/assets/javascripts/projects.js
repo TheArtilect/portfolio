@@ -3,97 +3,97 @@ var projects = {
     {
       "title": "Image Search",
       "dates": "Oct. 2016",
-      "description": "An image search microservice using the Google Custom Search API.  (Node/Heroku/MongoDB)",
+      "description": "An image search microservice using the Google Custom Search API.",
+      "tools": ["MongoDB", "Express", "Node", "Heroku"],
       "url": "https://imgsearch-ia.herokuapp.com/",
-      "thumbnail": "ImageSearch.png",
-      "type": "back-end"
+      "thumbnail": "ImageSearch.png"
     },
     {
       "title": "Url Shortener",
       "dates": "Sep. 2016",
-      "description": "A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.  (Node/Heroku/MongoDB)",
+      "description": "A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
+      "tools": ["MongoDB", "Express", "Node", "Heroku"],
       "url": "https://u-short.herokuapp.com/",
-      "thumbnail": "UrlShortener.png",
-      "type": "back-end"
+      "thumbnail": "UrlShortener.png"
     },
     {
       "title": "Local Weather",
       "dates": "Oct. 2016",
-      "description": "Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project. (Node/Heroku)",
+      "description": "Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
+      "tools": ["Express", "Node", "Heroku"],
       "url": "https://weather-ia.herokuapp.com/",
-      "thumbnail": "Weather.png",
-      "type": "back-end"
+      "thumbnail": "Weather.png"
     },
 
 
     {
       "title": "Simon Says",
       "dates": "Jul. 2016",
-      "description": "A Simon Says game. First project utilizing audio elements and setTimeout(). (Rails/Heroku)",
+      "description": "A Simon Says game. First project utilizing audio elements and setTimeout().",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://simon-says-ia.herokuapp.com",
-      "thumbnail": "SimonSays.png",
-      "type": "front-end"
+      "thumbnail": "SimonSays.png"
     },
 
     {
       "title": "Tic Tac Toe",
       "dates": "Jul. 2016",
-      "description": "A tic tac toe game. (github-pages)",
+      "description": "A tic tac toe game.",
+      "tools": ["Github"],
       "url": "https://theartilect.github.io/TickyTacky/",
-      "thumbnail": "TicTacToe.png",
-      "type": "front-end"
+      "thumbnail": "TicTacToe.png"
     },
 
     {
       "title": "Random Quote Generator",
       "dates": "Mar. 2016",
-      "description": "A few of my favorite quotes.  My first Javascript project. (Rails/Heroku)",
+      "description": "A few of my favorite quotes.  My first Javascript project.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://rand-quote-gen.herokuapp.com/",
-      "thumbnail": "RandomQuote.png",
-      "type": "front-end"
+      "thumbnail": "RandomQuote.png"
     },
 
     {
       "title": "Javascript Calculator",
       "dates": "Jun. 2016",
-      "description": "A fully functional simple calculator. First project utilizing 'this' in js. (github-pages)",
+      "description": "A fully functional simple calculator. First project utilizing 'this' in js.",
+      "tools": ["Github"],
       "url": "https://theartilect.github.io/calculator/",
-      "thumbnail": "JavascriptCalculator.png",
-      "type": "front-end"
+      "thumbnail": "JavascriptCalculator.png"
     },
 
     {
       "title": "Pomodoro Productivity Timer",
       "dates": "Jun. 2016",
-      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval(). (Rails/Heroku)",
+      "description": "A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://pomodoro-timer-ia.herokuapp.com/",
-      "thumbnail": "PomodoroTimer.png",
-      "type": "front-end"
+      "thumbnail": "PomodoroTimer.png"
     },
     {
       "title": "File Metadata",
       "dates": "Oct. 2016",
-      "description": "A file metadata microservice.  Uploading files will return a JSON object of the file's name, file type, and size in bytes.  (Node/Heroku)",
+      "description": "A file metadata microservice.  Uploading files will return a JSON object of the file's name, file type, and size in bytes.",
+      "tools": ["Express", "Node", "Heroku"],
       "url": "https://metadata-ia.herokuapp.com/",
-      "thumbnail": "metadata.png",
-      "type": "back-end"
+      "thumbnail": "metadata.png"
     },
     {
       "title": "Request Header Parser",
       "dates": "Sep. 2016",
-      "description": "A request header parser microservice that will return your browser IP address, language, and operating system. (Node/Heroku)",
+      "description": "A request header parser microservice that will return your browser IP address, language, and operating system.",
+      "tools": ["Express", "Node", "Heroku"],
       "url": "https://header-parser-ia.herokuapp.com/",
-      "thumbnail": "headerParser.png",
-      "type": "back-end"
+      "thumbnail": "headerParser.png"
     },
 
     {
       "title": "TimeStamp",
       "dates": "Sep. 2016",
-      "description": "A timestamp microservice.  First Node api project. (Node/Heroku)",
+      "description": "A timestamp microservice.  First Node api project.",
+      "tools": ["Express", "Node", "Heroku"],
       "url": "https://timestamp-microservice-ia.herokuapp.com/",
-      "thumbnail": "timestamp.png",
-      "type": "back-end"
+      "thumbnail": "timestamp.png"
     },
 
 
@@ -101,41 +101,35 @@ var projects = {
     {
       "title": "Twitch-It",
       "dates": "May 2016",
-      "description": "For tracking some Twitch streamers.  Utilized Twitch API. (Rails/Heroku)",
+      "description": "For tracking some Twitch streamers.  Utilized Twitch API.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://twitch-it.herokuapp.com/",
-      "thumbnail": "TwitchIt.png",
-      "type": "front-end"
+      "thumbnail": "TwitchIt.png"
     },
 
     {
       "title": "Wiki-It",
       "dates": "Apr. 2016",
-      "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API. (Rails/Heroku)",
+      "description": "For searching and viewing a listing of wikipedia articles.  Utilized Wikipedia API.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://wiki-it-ia.herokuapp.com",
-      "thumbnail": "WikiIt.png",
-      "type": "front-end"
-      /*
-      "url": "https://theartilect.github.io/wiki/"
-      */
+      "thumbnail": "WikiIt.png"
     },
     {
       "title": "Moving Companion",
       "dates": "Apr. 2016",
       "description": "Simple location integrated look up (Google, NYT, Wikipedia). Styling not finished.",
       "url": "http://codepen.io/TheArtilect/full/pbwbbW/",
-      "thumbnail": "MovingCompanion.png",
-      "type": "front-end"
+      "thumbnail": "MovingCompanion.png"
     },
 
     {
       "title": "Finance Tracker",
       "dates": "Feb. - Mar. 2016",
-      "onlineSchool": "Udemy",
-      "course": "The Complete Ruby on Rails Developer Course",
-      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress. (Rails/Heroku)",
+      "description": "Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://thawing-plains-40720.herokuapp.com/users/sign_in",
-      "thumbnail": "FinanceTracker.png",
-      "type": "front-end"
+      "thumbnail": "FinanceTracker.png"
     },
     /*
 
@@ -153,21 +147,19 @@ var projects = {
     {
       "title": "Tribute Project",
       "dates": "Feb. 2016",
-      "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project. (Rails/Heroku)",
+      "description": "Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://hunter-s-tribute.herokuapp.com/",
-      "thumbnail": "Tribute.png",
-      "type": "front-end"
+      "thumbnail": "Tribute.png"
     },
 
     {
       "title": "AlphaBlog",
       "dates": "Jan. 2016",
-      "description": "My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.  (Rails/Heroku)",
-      "onlineSchool": "Udemy",
-      "course": "The Complete Ruby on Rails Developer Course",
+      "description": "My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
+      "tools": ["Ruby on Rails", "Heroku"],
       "url": "https://project-prometheus-alphablog.herokuapp.com/",
-      "thumbnail": "AlphaBlog.png",
-      "type": "front-end"
+      "thumbnail": "AlphaBlog.png"
     },
 
   ]
