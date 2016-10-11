@@ -34,23 +34,17 @@ td{
 
 
 .p-title{
+  margin-top: 3vh;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+}
+
+.p-des, .p-tools {
   font-size: 1em;
-  margin-top: 5vh;
   text-align: center;
 }
 
-.p-des {
-  font-size: 1em;
-  text-align: center;
-
-}
-
-.p-tools {
-  font-size: 1em;
-  text-align: center;
-  margin-top: 3vh
-
-}
 .thumb-link {
   display: block;
   height: 100%;
